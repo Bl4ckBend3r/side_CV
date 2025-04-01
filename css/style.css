@@ -206,3 +206,31 @@ body {
 .photo:hover {
   animation: pulse 1s;
 }
+
+.lang-links {
+  padding-left: 40px;
+  margin-top: 500px;
+  margin-bottom: 30px;
+}
+
+.lang-link {
+  color: #ffffff;
+  text-decoration: underline;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.lang-link:hover {
+  color: #ff6b08;
+  text-decoration: none;
+}
+
+.lang-link.active {
+  color: #c0c0c0;
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+
