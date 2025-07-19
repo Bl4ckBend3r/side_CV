@@ -261,3 +261,83 @@ body {
   margin-top: 20px;
   font-style: italic;
 }
+
+.education-entry {
+  margin-bottom: 20px;
+}
+
+.education-degree {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2a2a2a;
+  margin-bottom: 6px;
+}
+
+.education-specialization {
+  font-size: 14px;
+  color: #595959;
+  margin-bottom: 1px;
+  line-height: 1.4;
+}
+
+.education-school {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff6b08;
+  margin-bottom: 1px;
+}
+
+.education-time {
+  font-size: 12px;
+  color: #828282;
+  margin-bottom: 0;
+}
+
+@media print {
+.left-side {
+  text-align: left;
+}
+
+.contacts,
+.skills,
+.widget,
+.contacts-title,
+.skills-title,
+.skills-item,
+.contacts-item {
+  padding-left: 10 !important;
+  margin-left: 0 !important;
+  text-align: left !important;
+}
+
+.contacts-list,
+.skills-list {
+  padding-left: 0 !important;
+  list-style-position: inside !important;
+}
+
+
+
+  .widget,
+  .lang-links,
+  .social-icons,
+  .projects-link::after {
+    display: none !important;
+    visibility: hidden;
+  }
+
+  /* Opcjonalnie: zamień linki na zwykły tekst (bez podkreśleń, kolorów) */
+  a{
+    color: #ffffff !important;
+    cursor: default;
+  }
+  .projects-link {
+    color: #2a2a2a !important;
+  }
+
+  /* Usuń przycisk "Download CV" */
+  .widget-link {
+    display: none !important;
+  }
+
+}
