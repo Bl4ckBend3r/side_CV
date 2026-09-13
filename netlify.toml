@@ -12,3 +12,9 @@
   for = "/jobs/*"
   [headers.values]
     X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/downloads/*"
+  [headers.values]
+    Content-Disposition = "attachment"
+    X-Robots-Tag = "noindex"

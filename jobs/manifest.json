@@ -5,12 +5,14 @@
       "en": {
         "title": "General",
         "description": "General technical, IT and analytical profile",
-        "path": "./jobs/ogolne-en.html"
+        "path": "./jobs/ogolne-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_ogolne_EN.html"
       },
       "pl": {
         "title": "Ogólne",
         "description": "CV ogólne — profil techniczny, IT i analityczny",
-        "path": "./jobs/ogolne.html"
+        "path": "./jobs/ogolne.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_ogolne_PL.html"
       }
     }
   },
@@ -20,12 +22,14 @@
       "en": {
         "title": "Data Analysis",
         "description": "Python, SQL, R, Power BI and reporting automation",
-        "path": "./jobs/analiza-danych-en.html"
+        "path": "./jobs/analiza-danych-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_analiza-danych_EN.html"
       },
       "pl": {
         "title": "Analiza danych",
         "description": "Python, SQL, R, Power BI i automatyzacja raportowania",
-        "path": "./jobs/analiza-danych.html"
+        "path": "./jobs/analiza-danych.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_analiza-danych_PL.html"
       }
     }
   },
@@ -35,12 +39,14 @@
       "en": {
         "title": "Automation",
         "description": "Industrial automation, diagnostics and technical systems",
-        "path": "./jobs/automatyka-en.html"
+        "path": "./jobs/automatyka-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_automatyka_EN.html"
       },
       "pl": {
         "title": "Automatyka",
         "description": "Automatyka przemysłowa, diagnostyka i systemy techniczne",
-        "path": "./jobs/automatyka.html"
+        "path": "./jobs/automatyka.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_automatyka_PL.html"
       }
     }
   },
@@ -50,12 +56,14 @@
       "en": {
         "title": "Data Science",
         "description": "Data modelling, statistics and experiments in Python and R",
-        "path": "./jobs/data-science-en.html"
+        "path": "./jobs/data-science-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_data-science_EN.html"
       },
       "pl": {
         "title": "Data Science",
         "description": "Modelowanie danych, statystyka i eksperymenty w Pythonie oraz R",
-        "path": "./jobs/data-science.html"
+        "path": "./jobs/data-science.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_data-science_PL.html"
       }
     }
   },
@@ -65,12 +73,14 @@
       "en": {
         "title": "Robotics",
         "description": "Robotics, systems integration and programming",
-        "path": "./jobs/robotyka-en.html"
+        "path": "./jobs/robotyka-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_robotyka_EN.html"
       },
       "pl": {
         "title": "Robotyka",
         "description": "Robotyka, integracja systemów i programowanie",
-        "path": "./jobs/robotyka.html"
+        "path": "./jobs/robotyka.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_robotyka_PL.html"
       }
     }
   },
@@ -80,12 +90,14 @@
       "en": {
         "title": "Artificial Intelligence",
         "description": "AI solutions, prompting, automation and integrations",
-        "path": "./jobs/sztuczna-inteligencja-en.html"
+        "path": "./jobs/sztuczna-inteligencja-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_sztuczna-inteligencja_EN.html"
       },
       "pl": {
         "title": "Sztuczna inteligencja",
         "description": "Rozwiązania AI, prompting, automatyzacja i integracje",
-        "path": "./jobs/sztuczna-inteligencja.html"
+        "path": "./jobs/sztuczna-inteligencja.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_sztuczna-inteligencja_PL.html"
       }
     }
   },
@@ -95,12 +107,14 @@
       "en": {
         "title": "Machine Learning",
         "description": "Machine learning, deep learning, computer vision and TensorFlow",
-        "path": "./jobs/ml-ai-en.html"
+        "path": "./jobs/ml-ai-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_machine-learning_EN.html"
       },
       "pl": {
         "title": "Uczenie maszynowe",
         "description": "Deep learning, computer vision, TensorFlow i rozwiązania AI",
-        "path": "./jobs/ml-ai.html"
+        "path": "./jobs/ml-ai.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_machine-learning_PL.html"
       }
     }
   }

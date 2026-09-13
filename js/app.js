@@ -19,7 +19,7 @@ function showProfile(profile, button, updateUrl = true) {
   const cv = currentVersion(profile);
   frame.src = cv.path;
   title.textContent = cv.title;
-  download.href = cv.path;
+  download.href = cv.downloadPath;
   download.download = `Witold_Grzesiak_${profile.key}_${selectedLang.toUpperCase()}.html`;
   open.href = cv.path;
   if (updateUrl) history.replaceState(null, '', `#${profile.key}`);
