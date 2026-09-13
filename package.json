@@ -1,0 +1,6 @@
+{
+  "name": "witold-grzesiak-cv",
+  "private": true,
+  "scripts": {"build": "node scripts/generate-manifest.mjs"},
+  "engines": {"node": ">=18"}
+}
