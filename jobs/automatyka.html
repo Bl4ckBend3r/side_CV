@@ -1,260 +1,776 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automatyka przemysłowa | CV Witolda Grzesiaka</title>
-    <meta name="cv-title" content="Automatyka">
-    <meta name="cv-slug" content="automatyka">
-    <meta name="cv-key" content="automatyka">
-    <meta name="cv-lang" content="pl">
-    <meta name="cv-description" content="Automatyka przemysłowa, diagnostyka i systemy techniczne">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/cv.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Witold Grzesiak — Automatyk / Inżynier Automatyki</title>
+
+<style>
+  :root {
+    --navy: #0F2747;
+    --text: #1E293B;
+    --muted: #475569;
+    --accent: #0F766E;
+    --soft: #F8FAFC;
+    --line: #CBD5E1;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: var(--text);
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.42;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .cv {
+    max-width: 210mm;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 14mm 15mm 13mm;
+  }
+
+  header {
+    border-bottom: 2px solid var(--navy);
+    padding-bottom: 6mm;
+    margin-bottom: 6mm;
+  }
+
+  h1 {
+    margin: 0;
+    color: var(--navy);
+    font-size: 25pt;
+    line-height: 1.05;
+    letter-spacing: 0.2px;
+  }
+
+  .target {
+    margin-top: 2mm;
+    color: var(--accent);
+    font-size: 12.5pt;
+    font-weight: 700;
+  }
+
+  .contact {
+    margin-top: 3.5mm;
+    color: var(--muted);
+    font-size: 9.6pt;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5mm 3.5mm;
+  }
+
+  .contact a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .contact span:not(:last-child)::after {
+    content: " | ";
+    color: var(--line);
+    margin-left: 3.5mm;
+  }
+
+  section {
+    margin-top: 5.3mm;
+  }
+
+  h2 {
+    margin: 0 0 2.8mm;
+    color: var(--navy);
+    font-size: 12pt;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 0.65px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 1.4mm;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .summary {
+    font-size: 10.4pt;
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2mm 8mm;
+  }
+
+  .skill-row {
+    padding: 1.2mm 0;
+    border-bottom: 1px solid #edf1f5;
+  }
+
+  .skill-label {
+    font-weight: 700;
+    color: var(--navy);
+  }
+
+  .job,
+  .edu,
+  .cert {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 4.2mm;
+  }
+
+  .job:last-child,
+  .edu:last-child,
+  .cert:last-child {
+    margin-bottom: 0;
+  }
+
+  .job-head,
+  .edu-head {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 4mm;
+    align-items: start;
+  }
+
+  .role {
+    font-weight: 700;
+    color: var(--navy);
+    font-size: 10.8pt;
+  }
+
+  .company {
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .date {
+    white-space: nowrap;
+    color: var(--muted);
+    font-size: 9.5pt;
+    font-weight: 600;
+  }
+
+  ul {
+    margin: 1.7mm 0 0 4.7mm;
+    padding: 0;
+  }
+
+  li {
+    margin: 0.8mm 0;
+    padding-left: 0.5mm;
+  }
+
+  li::marker {
+    color: var(--accent);
+  }
+
+  .edu-note,
+  .meta {
+    color: var(--muted);
+    font-size: 9.6pt;
+    margin-top: 0.5mm;
+  }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1.25fr 0.75fr;
+    gap: 8mm;
+  }
+
+  .cert-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .cert-list li {
+    margin: 0 0 2.1mm;
+    padding: 0;
+  }
+
+  .cert-list li::marker {
+    content: "";
+  }
+
+  .cert-name {
+    font-weight: 700;
+    color: var(--navy);
+  }
+
+  .footer {
+    margin-top: 6mm;
+    border-top: 1px solid var(--line);
+    padding-top: 3mm;
+    color: #64748B;
+    font-size: 7.4pt;
+    line-height: 1.3;
+    text-align: justify;
+  }
+
+  .screen-note {
+    margin: 0 auto 8px;
+    max-width: 210mm;
+    background: var(--soft);
+    border: 1px solid var(--line);
+    padding: 8px 12px;
+    color: var(--muted);
+    font-size: 9pt;
+  }
+
+  .screen-note strong {
+    color: var(--navy);
+  }
+
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  @media print {
+    html,
+    body {
+      font-size: 10.2pt;
+    }
+
+    .cv {
+      width: 210mm;
+      max-width: none;
+      margin: 0;
+      padding: 12mm 14mm 11mm;
+    }
+
+    .screen-note {
+      display: none;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    section {
+      break-inside: auto;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .cv {
+      padding: 24px 22px;
+    }
+
+    .skills,
+    .two-col {
+      grid-template-columns: 1fr;
+    }
+
+    .job-head,
+    .edu-head {
+      grid-template-columns: 1fr;
+    }
+
+    .date {
+      margin-top: 1mm;
+    }
+  }
+</style>
 </head>
+
 <body>
 
-    <div class="cv-container">
-        <!-- SIDEBAR -->
-        <aside class="sidebar">
-            <div class="top-widgets">
-                <div class="lang-switch">
-                    <a href="../index.html#automatyka" target="_top" class="lang-btn">Wszystkie CV</a>
-                    <a href="automatyka-en.html" class="lang-btn">EN</a>
-                </div>
-                <button type="button" class="download-btn" onclick="window.print()">Zapisz jako PDF</button>
-            </div>
+<div class="screen-note">
+  <strong>Wskazówka:</strong>
+  przed wysłaniem CV uzupełnij tylko informacje, które są prawdziwe
+  i których brakuje w Twoich danych
+  (np. prawo jazdy, SEP, TIA Portal/PLC — jeżeli faktycznie je posiadasz).
+  Do PDF: Ctrl+P → Zapisz jako PDF → format A4 → skala 100%.
+</div>
 
-            <div class="profile-header">
-                <h1 class="name">Witold<br>Grzesiak</h1>
-                <div class="title">Automatyka przemysłowa</div>
-            </div>
+<main class="cv">
 
-            <section class="sidebar-section">
-                <h2 class="sidebar-title">Kontakt</h2>
-                <ul class="contact-list">
-                    <li class="contact-item">
-                        <span class="contact-label">Telefon</span>
-                        <span class="contact-value"><a href="tel:+48531310527">+48 531 310 527</a></span>
-                    </li>
-                    <li class="contact-item">
-                        <span class="contact-label">E-mail</span>
-                        <span class="contact-value"><a href="mailto:witold.g83@gmail.com">witold.g83@gmail.com</a></span>
-                    </li>
-                    <li class="contact-item">
-                        <span class="contact-label">Lokalizacja</span>
-                        <span class="contact-value">Zielona Góra, Polska</span>
-                    </li>
-                    <li class="contact-item">
-                        <span class="contact-label">GitHub</span>
-                        <span class="contact-value"><a href="https://github.com/Bl4ckBend3r" target="_blank">github.com/Bl4ckBend3r</a></span>
-                    </li>
-                    <li class="contact-item">
-                        <span class="contact-label">LinkedIn</span>
-                        <span class="contact-value"><a href="https://www.linkedin.com/in/witoldgrzesiak/" target="_blank">linkedin.com/in/witoldgrzesiak</a></span>
-                    </li>
-                </ul>
-            </section>
+  <header>
+    <h1>Witold Grzesiak</h1>
 
-            <section class="sidebar-section">
-                <h2 class="sidebar-title">Umiejętności</h2>
-                <div class="skill-group">
-                    <div class="skill-group-title">Programowanie & Web</div>
-                    <div class="skill-tags">
-                        <span class="tag highlight">Python</span>
-                        <span class="tag highlight">R</span>
-                        <span class="tag">C++</span>
-                        <span class="tag">SQL</span>
-                        <span class="tag">HTML5/CSS3</span>
-                    </div>
-                </div>
-                <div class="skill-group">
-                    <div class="skill-group-title">Sztuczna Inteligencja</div>
-                    <div class="skill-tags">
-                        <span class="tag highlight">Prompting AI</span>
-                        <span class="tag highlight">Wdrażanie AI</span>
-                        <span class="tag highlight">Tworzenie rozwiązań opartych na AI</span>
-                    </div>
-                </div>
-                <div class="skill-group">
-                    <div class="skill-group-title">Analiza Danych & BI</div>
-                    <div class="skill-tags">
-                        <span class="tag">Power BI</span>
-                        <span class="tag">Power Query</span>
-                        <span class="tag">Makra Excel</span>
-                        <span class="tag">KPI</span>
-                    </div>
-                </div>
-                <div class="skill-group">
-                    <div class="skill-group-title">Narzędzia & Systemy</div>
-                    <div class="skill-tags">
-                        <span class="tag">Git / GitHub</span>
-                        <span class="tag">REST API</span>
-                        <span class="tag">Linux</span>
-                        <span class="tag">OpenProject</span>
-                        <span class="tag">Nextcloud</span>
-                    </div>
-                </div>
-            </section>
-
-            <section class="sidebar-section">
-                <h2 class="sidebar-title">Certyfikaty</h2>
-                <ul class="cert-list">
-                    <li class="cert-item">
-                        <div class="cert-name">Wdrażanie AI & Prompting</div>
-                        <div class="cert-meta">Google | maj 2026</div>
-                    </li>
-                    <li class="cert-item">
-                        <div class="cert-name">Python Średniozaawansowany</div>
-                        <div class="cert-meta">strefakursow.pl | kwi 2026</div>
-                    </li>
-                    <li class="cert-item">
-                        <div class="cert-name">Excel, Power Query, Power BI</div>
-                        <div class="cert-meta">iNauka.pl | wrz 2022</div>
-                    </li>
-                </ul>
-            </section>
-
-            <section class="sidebar-section">
-                <h2 class="sidebar-title">Języki Obce</h2>
-                <div class="skill-group">
-                    <div class="skill-group-title">Język angielski</div>
-                    <div class="cert-meta">Poziom B2/C1 (płynna komunikacja techniczna)</div>
-                </div>
-            </section>
-        </aside>
-
-        <!-- MAIN CONTENT -->
-        <main class="main-content">
-            <section class="section">
-                <h2 class="section-title">Profil Zawodowy</h2>
-                <p class="summary-text">
-                    Inżynier automatyki i robotyki ze specjalnością Automatyka Przemysłowa oraz magister informatyki ze specjalnością Inżynieria Systemów Informatycznych. Posiadam doświadczenie w lokalnej i zdalnej diagnostyce stacji ładowania pojazdów, naprawach, instalacji, przeglądach okresowych oraz aktualizacjach firmware. Łączę doświadczenie serwisowe i wsparcie L2 z tworzeniem aplikacji oraz skryptów automatyzujących pracę.
-                </p>
-            </section>
-
-            <section class="section">
-                <h2 class="section-title">Historia Zatrudnienia</h2>
-
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <span class="item-role">Pomoc Administracyjna / Developer Narzędziowy</span>
-                            <br><span class="item-company">Urząd Marszałkowski Województwa Lubuskiego</span>
-                        </div>
-                        <span class="item-date">11.2025 – obecnie</span>
-                    </div>
-                    <ul class="experience-bullets">
-                        <li>Tworzenie aplikacji i skryptów automatyzujących pracę urzędników.</li>
-                        <li>Wsparcie przy integracji i konfiguracji platform OpenProject oraz Nextcloud.</li>
-                        <li>Analiza rynku i zasobów internetowych na potrzeby wycen projektowych.</li>
-                        <li>Opiniowanie i doradztwo w zakresie dostępności i czytelności stron projektowych.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <span class="item-role">Młodszy Specjalista ds. Zdalnego Wsparcia Serwisowego</span>
-                            <br><span class="item-company">Ekoenergetyka - Service</span>
-                        </div>
-                        <span class="item-date">08.2023 – 12.2024</span>
-                    </div>
-                    <ul class="experience-bullets">
-                        <li>Zdalna diagnostyka, analiza logów systemowych oraz naprawa stacji ładowania pojazdów.</li>
-                        <li>Przeprowadzanie zdalnych aktualizacji oprogramowania układowego (firmware).</li>
-                        <li>Wsparcie techniczne L2 dla klientów, partnerów serwisowych oraz inżynierów w terenie.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <span class="item-role">Młodszy Specjalista ds. Serwisu Interwencyjnego</span>
-                            <br><span class="item-company">Ekoenergetyka - Service</span>
-                        </div>
-                        <span class="item-date">02.2023 – 08.2023</span>
-                    </div>
-                    <ul class="experience-bullets">
-                        <li>Naprawa i diagnostyka lokalna ładowarek elektrycznych w terenie.</li>
-                        <li>Instalacja i posadawianie ładowarek oraz wykonywanie przeglądów okresowych.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <span class="item-role">Asystent Serwisanta</span>
-                            <br><span class="item-company">Ekoenergetyka - Service</span>
-                        </div>
-                        <span class="item-date">07.2022 – 02.2023</span>
-                    </div>
-                    <ul class="experience-bullets">
-                        <li>Wsparcie przy naprawach, instalacji oraz przeglądach technicznych urządzeń.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <span class="item-role">Lider Gościnności</span>
-                            <br><span class="item-company">FMD Jadwiga Wieczorek – Restauracja McDonald's</span>
-                        </div>
-                        <span class="item-date">06.2019 – 05.2020</span>
-                    </div>
-                    <ul class="experience-bullets">
-                        <li>Zarządzanie zespołem porządkowym, obsługa klientów oraz dbanie o standardy jakości.</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="section">
-                <h2 class="section-title">Edukacja</h2>
-                <div class="education-item">
-                    <div class="item-header">
-                        <div>
-                            <span class="item-role">Magister Informatyki</span>
-                            <br><span class="item-company">Uniwersytet Zielonogórski</span> — Specjalność: Inżynieria Systemów Informatycznych
-                        </div>
-                        <span class="item-date">02.2023 – 06.2025</span>
-                    </div>
-                </div>
-                <div class="education-item">
-                    <div class="item-header">
-                        <div>
-                            <span class="item-role">Inżynier Automatyki i Robotyki</span>
-                            <br><span class="item-company">Uniwersytet Zielonogórski</span> — Specjalność: Automatyka Przemysłowa
-                        </div>
-                        <span class="item-date">10.2019 – 02.2023</span>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section">
-                <h2 class="section-title">Projekty (GitHub)</h2>
-                <div class="project-item">
-                    <div class="item-header">
-                        <span class="item-role">Aplikacja webowa – Pokedex</span>
-                        <span class="item-date">GitHub</span>
-                    </div>
-                    <p class="project-desc">Aplikacja frontendowa oparta na komunikacji z zewnętrznym REST API z asynchronicznym pobieraniem danych.</p>
-                </div>
-                <div class="project-item">
-                    <div class="item-header">
-                        <span class="item-role">Aplikacja Quizowa (JavaScript)</span>
-                        <span class="item-date">GitHub</span>
-                    </div>
-                    <p class="project-desc">Interaktywna aplikacja testowa stworzona w JS z logiką sprawdzania pytań i obsługą kontroli wersji Git.</p>
-                </div>
-            </section>
-
-            <div class="rodo-footer" lang="pl">
-                Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).
-            </div>
-        </main>
+    <div class="target">
+      Automatyk / Inżynier Automatyki
     </div>
+
+    <div class="contact">
+      <span>Zielona Góra, Polska</span>
+      <span>+48 531 310 527</span>
+
+      <span>
+        <a href="mailto:witold.g83@gmail.com">
+          witold.g83@gmail.com
+        </a>
+      </span>
+
+      <span>
+        <a href="https://www.linkedin.com/in/witoldgrzesiak/">
+          linkedin.com/in/witoldgrzesiak
+        </a>
+      </span>
+
+      <span>
+        <a href="https://github.com/Bl4ckBend3r">
+          github.com/Bl4ckBend3r
+        </a>
+      </span>
+    </div>
+  </header>
+
+
+  <section>
+
+    <h2>Podsumowanie zawodowe</h2>
+
+    <p class="summary">
+      Inżynier automatyki i robotyki ze specjalnością Automatyka
+      Przemysłowa oraz magister informatyki ze specjalnością Inżynieria
+      Systemów Informatycznych. Posiadam praktyczne doświadczenie
+      w diagnostyce, naprawach, instalacji i przeglądach technicznych
+      urządzeń oraz w zdalnej analizie problemów systemowych stacji
+      ładowania pojazdów. W pracy serwisowej łączyłem diagnostykę
+      lokalną i zdalną, analizę logów, aktualizacje firmware oraz
+      wsparcie techniczne L2 dla klientów, partnerów serwisowych
+      i inżynierów terenowych. Szukam roli, w której wykorzystam
+      doświadczenie techniczne i wykształcenie kierunkowe w dalszym
+      rozwoju w obszarze automatyki przemysłowej.
+    </p>
+
+  </section>
+
+
+  <section>
+
+    <h2>Kluczowe kompetencje</h2>
+
+    <div class="skills">
+
+      <div class="skill-row">
+        <span class="skill-label">Automatyka i serwis:</span>
+        diagnostyka urządzeń, naprawy, instalacja, przeglądy techniczne
+      </div>
+
+      <div class="skill-row">
+        <span class="skill-label">Diagnostyka zdalna:</span>
+        analiza logów systemowych, identyfikacja usterek,
+        aktualizacje firmware
+      </div>
+
+      <div class="skill-row">
+        <span class="skill-label">Wsparcie techniczne:</span>
+        wsparcie L2 klientów, partnerów serwisowych
+        i inżynierów terenowych
+      </div>
+
+      <div class="skill-row">
+        <span class="skill-label">Systemy:</span>
+        Linux, REST API, Git / GitHub, OpenProject, Nextcloud
+      </div>
+
+      <div class="skill-row">
+        <span class="skill-label">Programowanie:</span>
+        Python, R, C++, SQL, HTML5/CSS3
+      </div>
+
+      <div class="skill-row">
+        <span class="skill-label">Analiza danych:</span>
+        Power BI, Power Query, Excel / makra, KPI
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section>
+
+    <h2>Doświadczenie zawodowe</h2>
+
+
+    <article class="job">
+
+      <div class="job-head">
+
+        <div>
+          <div class="role">
+            Pomoc Administracyjna / Developer Narzędziowy
+          </div>
+
+          <div class="company">
+            Urząd Marszałkowski Województwa Lubuskiego
+          </div>
+        </div>
+
+        <div class="date">
+          11.2025 – obecnie
+        </div>
+
+      </div>
+
+      <ul>
+        <li>
+          Tworzenie aplikacji i skryptów automatyzujących pracę
+          użytkowników oraz usprawniających powtarzalne zadania.
+        </li>
+
+        <li>
+          Wsparcie integracji i konfiguracji platform OpenProject
+          oraz Nextcloud.
+        </li>
+
+        <li>
+          Analiza dostępnych rozwiązań i zasobów technicznych
+          na potrzeby wycen i realizacji projektów.
+        </li>
+
+        <li>
+          Opiniowanie rozwiązań pod kątem czytelności,
+          dostępności i użyteczności stron projektowych.
+        </li>
+      </ul>
+
+    </article>
+
+
+    <article class="job">
+
+      <div class="job-head">
+
+        <div>
+          <div class="role">
+            Młodszy Specjalista ds. Zdalnego Wsparcia Serwisowego
+          </div>
+
+          <div class="company">
+            Ekoenergetyka – Service
+          </div>
+        </div>
+
+        <div class="date">
+          08.2023 – 12.2024
+        </div>
+
+      </div>
+
+      <ul>
+
+        <li>
+          Zdalna diagnostyka stacji ładowania pojazdów,
+          analiza logów systemowych oraz lokalizowanie
+          przyczyn usterek.
+        </li>
+
+        <li>
+          Realizacja zdalnych działań naprawczych
+          i aktualizacji oprogramowania układowego (firmware).
+        </li>
+
+        <li>
+          Wsparcie techniczne L2 dla klientów,
+          partnerów serwisowych oraz inżynierów
+          pracujących w terenie.
+        </li>
+
+        <li>
+          Współpraca przy rozwiązywaniu złożonych problemów
+          wymagających połączenia wiedzy sprzętowej
+          i systemowej.
+        </li>
+
+      </ul>
+
+    </article>
+
+
+    <article class="job">
+
+      <div class="job-head">
+
+        <div>
+
+          <div class="role">
+            Młodszy Specjalista ds. Serwisu Interwencyjnego
+          </div>
+
+          <div class="company">
+            Ekoenergetyka – Service
+          </div>
+
+        </div>
+
+        <div class="date">
+          02.2023 – 08.2023
+        </div>
+
+      </div>
+
+
+      <ul>
+
+        <li>
+          Lokalna diagnostyka i naprawa stacji ładowania
+          pojazdów elektrycznych podczas interwencji serwisowych.
+        </li>
+
+        <li>
+          Instalacja i posadawianie urządzeń oraz wykonywanie
+          okresowych przeglądów technicznych.
+        </li>
+
+        <li>
+          Praca z urządzeniami technicznymi w środowisku terenowym,
+          wymagająca samodzielnej analizy problemu
+          i dokładności wykonania.
+        </li>
+
+      </ul>
+
+    </article>
+
+
+    <article class="job">
+
+      <div class="job-head">
+
+        <div>
+
+          <div class="role">
+            Asystent Serwisanta
+          </div>
+
+          <div class="company">
+            Ekoenergetyka – Service
+          </div>
+
+        </div>
+
+        <div class="date">
+          07.2022 – 02.2023
+        </div>
+
+      </div>
+
+
+      <ul>
+
+        <li>
+          Wsparcie prac serwisowych obejmujących naprawy,
+          instalację oraz przeglądy techniczne urządzeń.
+        </li>
+
+      </ul>
+
+    </article>
+
+
+    <article class="job">
+
+      <div class="job-head">
+
+        <div>
+
+          <div class="role">
+            Lider Gościnności
+          </div>
+
+          <div class="company">
+            FMD Jadwiga Wieczorek – Restauracja McDonald's
+          </div>
+
+        </div>
+
+        <div class="date">
+          06.2019 – 05.2020
+        </div>
+
+      </div>
+
+
+      <ul>
+
+        <li>
+          Obsługa klientów, koordynowanie pracy zespołu
+          porządkowego oraz dbanie o standardy jakości
+          i organizację pracy.
+        </li>
+
+      </ul>
+
+    </article>
+
+  </section>
+
+
+  <section class="two-col">
+
+    <div>
+
+      <h2>Wykształcenie</h2>
+
+
+      <div class="edu">
+
+        <div class="edu-head">
+
+          <div>
+
+            <div class="role">
+              Magister Informatyki
+            </div>
+
+            <div class="company">
+              Uniwersytet Zielonogórski
+            </div>
+
+          </div>
+
+          <div class="date">
+            02.2023 – 06.2025
+          </div>
+
+        </div>
+
+        <div class="edu-note">
+          Specjalność: Inżynieria Systemów Informatycznych
+        </div>
+
+      </div>
+
+
+      <div class="edu">
+
+        <div class="edu-head">
+
+          <div>
+
+            <div class="role">
+              Inżynier Automatyki i Robotyki
+            </div>
+
+            <div class="company">
+              Uniwersytet Zielonogórski
+            </div>
+
+          </div>
+
+          <div class="date">
+            10.2019 – 02.2023
+          </div>
+
+        </div>
+
+        <div class="edu-note">
+          Specjalność: Automatyka Przemysłowa
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div>
+
+      <h2>Certyfikaty i języki</h2>
+
+      <ul class="cert-list">
+
+        <li>
+          <span class="cert-name">
+            Wdrażanie AI & Prompting
+          </span>
+
+          <div class="meta">
+            Google | 05.2026
+          </div>
+        </li>
+
+
+        <li>
+          <span class="cert-name">
+            Python Średniozaawansowany
+          </span>
+
+          <div class="meta">
+            strefakursow.pl | 04.2026
+          </div>
+        </li>
+
+
+        <li>
+          <span class="cert-name">
+            Excel, Power Query, Power BI
+          </span>
+
+          <div class="meta">
+            iNauka.pl | 09.2022
+          </div>
+        </li>
+
+
+        <li>
+
+          <span class="cert-name">
+            Język angielski
+          </span>
+
+          <div class="meta">
+            B2/C1 — płynna komunikacja techniczna
+          </div>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+
+  <section>
+
+    <h2>
+      Informacje wymagające potwierdzenia przed wysłaniem
+    </h2>
+
+    <p class="meta">
+      Ogłoszenie wymaga czynnego prawa jazdy kat. B,
+      aktualnych uprawnień SEP G1 oraz biegłej znajomości
+      TIA Portal / Siemens, języków LAD, ST/SCL i FBD,
+      EPLAN oraz sieci Profinet/Profibus.
+      Te informacje nie występują w przekazanym CV.
+      Jeżeli je posiadasz, dopisz je tutaj przed wysłaniem dokumentu.
+      Jeżeli ich nie posiadasz, usuń tę sekcję.
+    </p>
+
+  </section>
+
+
+  <div class="footer">
+
+    Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb
+    niezbędnych do realizacji procesu rekrutacji
+    (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych
+    osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie
+    z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679
+    z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych
+    w związku z przetwarzaniem danych osobowych i w sprawie swobodnego
+    przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).
+
+  </div>
+
+</main>
 
 </body>
 </html>
