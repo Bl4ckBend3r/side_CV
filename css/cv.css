@@ -25,6 +25,7 @@ body {
 }
 
 button.download-btn { border: 0; font-family: inherit; cursor: pointer; }
+.embedded .top-widgets { display: none; }
 .top-widgets > .lang-btn { text-align: center; }
 .experience-item, .education-item, .project-item { break-inside: avoid; page-break-inside: avoid; }
 

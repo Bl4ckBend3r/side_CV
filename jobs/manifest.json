@@ -1,44 +1,107 @@
 [
   {
-    "title": "Ogólne",
-    "slug": "ogolne",
-    "description": "CV ogólne — profil techniczny, IT i analityczny",
-    "path": "./jobs/ogolne.html"
+    "key": "ogolne",
+    "versions": {
+      "en": {
+        "title": "General",
+        "description": "General technical, IT and analytical profile",
+        "path": "./jobs/ogolne-en.html"
+      },
+      "pl": {
+        "title": "Ogólne",
+        "description": "CV ogólne — profil techniczny, IT i analityczny",
+        "path": "./jobs/ogolne.html"
+      }
+    }
   },
   {
-    "title": "Analiza danych",
-    "slug": "analiza-danych",
-    "description": "Python, SQL, R, Power BI i automatyzacja raportowania",
-    "path": "./jobs/analiza-danych.html"
+    "key": "analiza-danych",
+    "versions": {
+      "en": {
+        "title": "Data Analysis",
+        "description": "Python, SQL, R, Power BI and reporting automation",
+        "path": "./jobs/analiza-danych-en.html"
+      },
+      "pl": {
+        "title": "Analiza danych",
+        "description": "Python, SQL, R, Power BI i automatyzacja raportowania",
+        "path": "./jobs/analiza-danych.html"
+      }
+    }
   },
   {
-    "title": "Automatyka",
-    "slug": "automatyka",
-    "description": "Automatyka przemysłowa, diagnostyka i systemy techniczne",
-    "path": "./jobs/automatyka.html"
+    "key": "automatyka",
+    "versions": {
+      "en": {
+        "title": "Automation",
+        "description": "Industrial automation, diagnostics and technical systems",
+        "path": "./jobs/automatyka-en.html"
+      },
+      "pl": {
+        "title": "Automatyka",
+        "description": "Automatyka przemysłowa, diagnostyka i systemy techniczne",
+        "path": "./jobs/automatyka.html"
+      }
+    }
   },
   {
-    "title": "Data Science",
-    "slug": "data-science",
-    "description": "Modelowanie danych, statystyka i eksperymenty w Pythonie oraz R",
-    "path": "./jobs/data-science.html"
+    "key": "data-science",
+    "versions": {
+      "en": {
+        "title": "Data Science",
+        "description": "Data modelling, statistics and experiments in Python and R",
+        "path": "./jobs/data-science-en.html"
+      },
+      "pl": {
+        "title": "Data Science",
+        "description": "Modelowanie danych, statystyka i eksperymenty w Pythonie oraz R",
+        "path": "./jobs/data-science.html"
+      }
+    }
   },
   {
-    "title": "Machine Learning i AI",
-    "slug": "ml-ai",
-    "description": "Deep learning, computer vision, TensorFlow i rozwiązania AI",
-    "path": "./jobs/ml-ai.html"
+    "key": "robotyka",
+    "versions": {
+      "en": {
+        "title": "Robotics",
+        "description": "Robotics, systems integration and programming",
+        "path": "./jobs/robotyka-en.html"
+      },
+      "pl": {
+        "title": "Robotyka",
+        "description": "Robotyka, integracja systemów i programowanie",
+        "path": "./jobs/robotyka.html"
+      }
+    }
   },
   {
-    "title": "Robotyka",
-    "slug": "robotyka",
-    "description": "Robotyka, integracja systemów i programowanie",
-    "path": "./jobs/robotyka.html"
+    "key": "sztuczna-inteligencja",
+    "versions": {
+      "en": {
+        "title": "Artificial Intelligence",
+        "description": "AI solutions, prompting, automation and integrations",
+        "path": "./jobs/sztuczna-inteligencja-en.html"
+      },
+      "pl": {
+        "title": "Sztuczna inteligencja",
+        "description": "Rozwiązania AI, prompting, automatyzacja i integracje",
+        "path": "./jobs/sztuczna-inteligencja.html"
+      }
+    }
   },
   {
-    "title": "Sztuczna inteligencja",
-    "slug": "sztuczna-inteligencja",
-    "description": "Rozwiązania AI, prompting, automatyzacja i integracje",
-    "path": "./jobs/sztuczna-inteligencja.html"
+    "key": "machine-learning",
+    "versions": {
+      "en": {
+        "title": "Machine Learning",
+        "description": "Machine learning, deep learning, computer vision and TensorFlow",
+        "path": "./jobs/ml-ai-en.html"
+      },
+      "pl": {
+        "title": "Uczenie maszynowe",
+        "description": "Deep learning, computer vision, TensorFlow i rozwiązania AI",
+        "path": "./jobs/ml-ai.html"
+      }
+    }
   }
 ]
