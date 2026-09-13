@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Ogólne",
+    "slug": "ogolne",
+    "description": "CV ogólne — profil techniczny, IT i analityczny",
+    "path": "./jobs/ogolne.html"
+  },
+  {
+    "title": "Analiza danych",
+    "slug": "analiza-danych",
+    "description": "Python, SQL, R, Power BI i automatyzacja raportowania",
+    "path": "./jobs/analiza-danych.html"
+  },
+  {
+    "title": "Automatyka",
+    "slug": "automatyka",
+    "description": "Automatyka przemysłowa, diagnostyka i systemy techniczne",
+    "path": "./jobs/automatyka.html"
+  },
+  {
+    "title": "Data Science",
+    "slug": "data-science",
+    "description": "Modelowanie danych, statystyka i eksperymenty w Pythonie oraz R",
+    "path": "./jobs/data-science.html"
+  },
+  {
+    "title": "Machine Learning i AI",
+    "slug": "ml-ai",
+    "description": "Deep learning, computer vision, TensorFlow i rozwiązania AI",
+    "path": "./jobs/ml-ai.html"
+  },
+  {
+    "title": "Robotyka",
+    "slug": "robotyka",
+    "description": "Robotyka, integracja systemów i programowanie",
+    "path": "./jobs/robotyka.html"
+  },
+  {
+    "title": "Sztuczna inteligencja",
+    "slug": "sztuczna-inteligencja",
+    "description": "Rozwiązania AI, prompting, automatyzacja i integracje",
+    "path": "./jobs/sztuczna-inteligencja.html"
+  }
+]
