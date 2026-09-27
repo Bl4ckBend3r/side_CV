@@ -117,5 +117,22 @@
         "downloadPath": "./downloads/Witold_Grzesiak_machine-learning_PL.html"
       }
     }
+  },
+  {
+    "key": "bi-developer",
+    "versions": {
+      "en": {
+        "title": "BI Developer",
+        "description": "Power BI, SQL, ETL, DAX, Python and data modelling",
+        "path": "./jobs/bi-developer-en.html",
+        "downloadPath": "./jobs/bi-developer-en.html"
+      },
+      "pl": {
+        "title": "BI Developer",
+        "description": "Power BI, SQL, ETL, DAX, Python i modelowanie danych",
+        "path": "./jobs/bi-developer.html",
+        "downloadPath": "./jobs/bi-developer.html"
+      }
+    }
   }
 ]
