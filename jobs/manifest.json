@@ -134,5 +134,22 @@
         "downloadPath": "./jobs/bi-developer.html"
       }
     }
+  },
+  {
+    "key": "biocodex-ai-bi",
+    "versions": {
+      "en": {
+        "title": "Biocodex: AI & BI",
+        "description": "Biocodex CV: Power BI, DAX, Excel, automation and AI",
+        "path": "./jobs/biocodex-ai-bi-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_biocodex-ai-bi_EN.html"
+      },
+      "pl": {
+        "title": "Biocodex: AI & BI",
+        "description": "CV dla Biocodex: Power BI, DAX, Excel, automatyzacja i AI",
+        "path": "./jobs/biocodex-ai-bi.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_biocodex-ai-bi_PL.html"
+      }
+    }
   }
 ]
