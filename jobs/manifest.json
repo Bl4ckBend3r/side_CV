@@ -151,5 +151,22 @@
         "downloadPath": "./downloads/Witold_Grzesiak_biocodex-ai-bi_PL.html"
       }
     }
+  },
+  {
+    "key": "associate-data-operations-specialist",
+    "versions": {
+      "en": {
+        "title": "Associate Data Operations Specialist",
+        "description": "SQL, Power BI, ETL, Linux, troubleshooting and Data Operations",
+        "path": "./jobs/associate-data-operations-specialist-en.html",
+        "downloadPath": "./jobs/associate-data-operations-specialist-en.html"
+      },
+      "pl": {
+        "title": "Associate Data Operations Specialist",
+        "description": "SQL, Power BI, ETL, Linux, troubleshooting i Data Operations",
+        "path": "./jobs/associate-data-operations-specialist.html",
+        "downloadPath": "./jobs/associate-data-operations-specialist.html"
+      }
+    }
   }
 ]
