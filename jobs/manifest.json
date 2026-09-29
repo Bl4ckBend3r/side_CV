@@ -168,5 +168,22 @@
         "downloadPath": "./jobs/associate-data-operations-specialist.html"
       }
     }
+  },
+  {
+    "key": "mindbox-junior-data-engineer",
+    "versions": {
+      "en": {
+        "title": "Mindbox: Junior Data Engineer",
+        "description": "Python, SQL, Linux, MATLAB, data modelling and AI/ML",
+        "path": "./jobs/mindbox-junior-data-engineer-en.html",
+        "downloadPath": "./jobs/mindbox-junior-data-engineer-en.html"
+      },
+      "pl": {
+        "title": "Mindbox: Junior Data Engineer",
+        "description": "Python, SQL, Linux, MATLAB, modelowanie danych i AI/ML",
+        "path": "./jobs/mindbox-junior-data-engineer.html",
+        "downloadPath": "./jobs/mindbox-junior-data-engineer.html"
+      }
+    }
   }
 ]
