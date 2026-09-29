@@ -185,5 +185,22 @@
         "downloadPath": "./jobs/mindbox-junior-data-engineer.html"
       }
     }
+  },
+  {
+    "key": "michael-page-junior-financial-analyst",
+    "versions": {
+      "en": {
+        "title": "Michael Page: Junior Financial Analyst",
+        "description": "Power BI, Power Query, Excel, reporting, KPIs and data quality",
+        "path": "./jobs/michael-page-junior-financial-analyst-en.html",
+        "downloadPath": "./jobs/michael-page-junior-financial-analyst-en.html"
+      },
+      "pl": {
+        "title": "Michael Page: Młodszy Analityk Finansowy",
+        "description": "Power BI, Power Query, Excel, raportowanie, KPI i jakość danych",
+        "path": "./jobs/michael-page-junior-financial-analyst.html",
+        "downloadPath": "./jobs/michael-page-junior-financial-analyst.html"
+      }
+    }
   }
 ]
