@@ -202,5 +202,22 @@
         "downloadPath": "./jobs/michael-page-junior-financial-analyst.html"
       }
     }
+  },
+  {
+    "key": "opi-analityk-danych",
+    "versions": {
+      "en": {
+        "title": "OPI PIB: Data Analyst",
+        "description": "SQL, data warehousing, ETL, BI, reporting and data integration",
+        "path": "./jobs/opi-analityk-danych-en.html",
+        "downloadPath": "./jobs/opi-analityk-danych-en.html"
+      },
+      "pl": {
+        "title": "OPI PIB: Analityk Danych",
+        "description": "SQL, hurtownie danych, ETL, BI, raportowanie i integracja danych",
+        "path": "./jobs/opi-analityk-danych.html",
+        "downloadPath": "./jobs/opi-analityk-danych.html"
+      }
+    }
   }
 ]
