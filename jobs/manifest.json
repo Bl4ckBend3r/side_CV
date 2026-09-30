@@ -219,5 +219,39 @@
         "downloadPath": "./jobs/opi-analityk-danych.html"
       }
     }
+  },
+  {
+    "key": "rpower-junior-data-analyst",
+    "versions": {
+      "en": {
+        "title": "R.Power: Junior Data Analyst",
+        "description": "Power BI, Excel, SQL, Python, KPI and data analysis",
+        "path": "./jobs/rpower-junior-data-analyst-en.html",
+        "downloadPath": "./jobs/rpower-junior-data-analyst-en.html"
+      },
+      "pl": {
+        "title": "R.Power: Junior Data Analyst",
+        "description": "Power BI, Excel, SQL, Python, KPI i analiza danych",
+        "path": "./jobs/rpower-junior-data-analyst.html",
+        "downloadPath": "./jobs/rpower-junior-data-analyst.html"
+      }
+    }
+  },
+  {
+    "key": "santander-junior-it-analyst",
+    "versions": {
+      "en": {
+        "title": "Santander: Junior IT Analyst",
+        "description": "SQL, data analysis, troubleshooting, root cause analysis and IT systems",
+        "path": "./jobs/santander-junior-it-analyst-en.html",
+        "downloadPath": "./jobs/santander-junior-it-analyst-en.html"
+      },
+      "pl": {
+        "title": "Santander: Młodszy Analityk IT",
+        "description": "SQL, analiza danych, diagnostyka, root cause analysis i systemy IT",
+        "path": "./jobs/santander-junior-it-analyst.html",
+        "downloadPath": "./jobs/santander-junior-it-analyst.html"
+      }
+    }
   }
 ]
