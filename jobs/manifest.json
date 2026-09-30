@@ -221,19 +221,19 @@
     }
   },
   {
-    "key": "rpower-junior-data-analyst",
+    "key": "alior-data-platform-analyst",
     "versions": {
       "en": {
-        "title": "R.Power: Junior Data Analyst",
-        "description": "Power BI, Excel, SQL, Python, KPI and data analysis",
-        "path": "./jobs/rpower-junior-data-analyst-en.html",
-        "downloadPath": "./jobs/rpower-junior-data-analyst-en.html"
+        "title": "Alior Bank: Data Platform Analyst",
+        "description": "SQL, data warehousing, ETL, Data Marts, Power BI, Python and data quality",
+        "path": "./jobs/alior-data-platform-analyst-en.html",
+        "downloadPath": "./jobs/alior-data-platform-analyst-en.html"
       },
       "pl": {
-        "title": "R.Power: Junior Data Analyst",
-        "description": "Power BI, Excel, SQL, Python, KPI i analiza danych",
-        "path": "./jobs/rpower-junior-data-analyst.html",
-        "downloadPath": "./jobs/rpower-junior-data-analyst.html"
+        "title": "Alior Bank: Data Platform Analyst",
+        "description": "SQL, hurtownie danych, ETL, Data Marts, Power BI, Python i jakość danych",
+        "path": "./jobs/alior-data-platform-analyst.html",
+        "downloadPath": "./jobs/alior-data-platform-analyst.html"
       }
     }
   },
