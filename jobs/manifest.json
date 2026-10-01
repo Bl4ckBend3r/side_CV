@@ -1,114 +1,19 @@
 [
-  {
-    "key": "ogolne",
-    "versions": {
-      "en": {"title": "General", "description": "General technical, IT and analytical profile", "path": "./jobs/ogolne-en.html", "downloadPath": "./downloads/Witold_Grzesiak_ogolne_EN.html"},
-      "pl": {"title": "Ogólne", "description": "CV ogólne — profil techniczny, IT i analityczny", "path": "./jobs/ogolne.html", "downloadPath": "./downloads/Witold_Grzesiak_ogolne_PL.html"}
-    }
-  },
-  {
-    "key": "analiza-danych",
-    "versions": {
-      "en": {"title": "Data Analysis", "description": "Python, SQL, R, Power BI and reporting automation", "path": "./jobs/analiza-danych-en.html", "downloadPath": "./downloads/Witold_Grzesiak_analiza-danych_EN.html"},
-      "pl": {"title": "Analiza danych", "description": "Python, SQL, R, Power BI i automatyzacja raportowania", "path": "./jobs/analiza-danych.html", "downloadPath": "./downloads/Witold_Grzesiak_analiza-danych_PL.html"}
-    }
-  },
-  {
-    "key": "automatyka",
-    "versions": {
-      "en": {"title": "Automation", "description": "Industrial automation, diagnostics and technical systems", "path": "./jobs/automatyka-en.html", "downloadPath": "./downloads/Witold_Grzesiak_automatyka_EN.html"},
-      "pl": {"title": "Automatyka", "description": "Automatyka przemysłowa, diagnostyka i systemy techniczne", "path": "./jobs/automatyka.html", "downloadPath": "./downloads/Witold_Grzesiak_automatyka_PL.html"}
-    }
-  },
-  {
-    "key": "data-science",
-    "versions": {
-      "en": {"title": "Data Science", "description": "Data modelling, statistics and experiments in Python and R", "path": "./jobs/data-science-en.html", "downloadPath": "./downloads/Witold_Grzesiak_data-science_EN.html"},
-      "pl": {"title": "Data Science", "description": "Modelowanie danych, statystyka i eksperymenty w Pythonie oraz R", "path": "./jobs/data-science.html", "downloadPath": "./downloads/Witold_Grzesiak_data-science_PL.html"}
-    }
-  },
-  {
-    "key": "robotyka",
-    "versions": {
-      "en": {"title": "Robotics", "description": "Robotics, systems integration and programming", "path": "./jobs/robotyka-en.html", "downloadPath": "./downloads/Witold_Grzesiak_robotyka_EN.html"},
-      "pl": {"title": "Robotyka", "description": "Robotyka, integracja systemów i programowanie", "path": "./jobs/robotyka.html", "downloadPath": "./downloads/Witold_Grzesiak_robotyka_PL.html"}
-    }
-  },
-  {
-    "key": "sztuczna-inteligencja",
-    "versions": {
-      "en": {"title": "Artificial Intelligence", "description": "AI solutions, prompting, automation and integrations", "path": "./jobs/sztuczna-inteligencja-en.html", "downloadPath": "./downloads/Witold_Grzesiak_sztuczna-inteligencja_EN.html"},
-      "pl": {"title": "Sztuczna inteligencja", "description": "Rozwiązania AI, prompting, automatyzacja i integracje", "path": "./jobs/sztuczna-inteligencja.html", "downloadPath": "./downloads/Witold_Grzesiak_sztuczna-inteligencja_PL.html"}
-    }
-  },
-  {
-    "key": "machine-learning",
-    "versions": {
-      "en": {"title": "Machine Learning", "description": "Machine learning, deep learning, computer vision and TensorFlow", "path": "./jobs/ml-ai-en.html", "downloadPath": "./downloads/Witold_Grzesiak_machine-learning_EN.html"},
-      "pl": {"title": "Uczenie maszynowe", "description": "Deep learning, computer vision, TensorFlow i rozwiązania AI", "path": "./jobs/ml-ai.html", "downloadPath": "./downloads/Witold_Grzesiak_machine-learning_PL.html"}
-    }
-  },
-  {
-    "key": "bi-developer",
-    "versions": {
-      "en": {"title": "BI Developer", "description": "Power BI, SQL, ETL, DAX, Python and data modelling", "path": "./jobs/bi-developer-en.html", "downloadPath": "./jobs/bi-developer-en.html"},
-      "pl": {"title": "BI Developer", "description": "Power BI, SQL, ETL, DAX, Python i modelowanie danych", "path": "./jobs/bi-developer.html", "downloadPath": "./jobs/bi-developer.html"}
-    }
-  },
-  {
-    "key": "biocodex-ai-bi",
-    "versions": {
-      "en": {"title": "Biocodex: AI & BI", "description": "Biocodex CV: Power BI, DAX, Excel, automation and AI", "path": "./jobs/biocodex-ai-bi-en.html", "downloadPath": "./downloads/Witold_Grzesiak_biocodex-ai-bi_EN.html"},
-      "pl": {"title": "Biocodex: AI & BI", "description": "CV dla Biocodex: Power BI, DAX, Excel, automatyzacja i AI", "path": "./jobs/biocodex-ai-bi.html", "downloadPath": "./downloads/Witold_Grzesiak_biocodex-ai-bi_PL.html"}
-    }
-  },
-  {
-    "key": "associate-data-operations-specialist",
-    "versions": {
-      "en": {"title": "Associate Data Operations Specialist", "description": "SQL, Power BI, ETL, Linux, troubleshooting and Data Operations", "path": "./jobs/associate-data-operations-specialist-en.html", "downloadPath": "./jobs/associate-data-operations-specialist-en.html"},
-      "pl": {"title": "Associate Data Operations Specialist", "description": "SQL, Power BI, ETL, Linux, troubleshooting i Data Operations", "path": "./jobs/associate-data-operations-specialist.html", "downloadPath": "./jobs/associate-data-operations-specialist.html"}
-    }
-  },
-  {
-    "key": "mindbox-junior-data-engineer",
-    "versions": {
-      "en": {"title": "Mindbox: Junior Data Engineer", "description": "Python, SQL, Linux, MATLAB, data modelling and AI/ML", "path": "./jobs/mindbox-junior-data-engineer-en.html", "downloadPath": "./jobs/mindbox-junior-data-engineer-en.html"},
-      "pl": {"title": "Mindbox: Junior Data Engineer", "description": "Python, SQL, Linux, MATLAB, modelowanie danych i AI/ML", "path": "./jobs/mindbox-junior-data-engineer.html", "downloadPath": "./jobs/mindbox-junior-data-engineer.html"}
-    }
-  },
-  {
-    "key": "michael-page-junior-financial-analyst",
-    "versions": {
-      "en": {"title": "Michael Page: Junior Financial Analyst", "description": "Power BI, Power Query, Excel, reporting, KPIs and data quality", "path": "./jobs/michael-page-junior-financial-analyst-en.html", "downloadPath": "./jobs/michael-page-junior-financial-analyst-en.html"},
-      "pl": {"title": "Michael Page: Młodszy Analityk Finansowy", "description": "Power BI, Power Query, Excel, raportowanie, KPI i jakość danych", "path": "./jobs/michael-page-junior-financial-analyst.html", "downloadPath": "./jobs/michael-page-junior-financial-analyst.html"}
-    }
-  },
-  {
-    "key": "opi-analityk-danych",
-    "versions": {
-      "en": {"title": "OPI PIB: Data Analyst", "description": "SQL, data warehousing, ETL, BI, reporting and data integration", "path": "./jobs/opi-analityk-danych-en.html", "downloadPath": "./jobs/opi-analityk-danych-en.html"},
-      "pl": {"title": "OPI PIB: Analityk Danych", "description": "SQL, hurtownie danych, ETL, BI, raportowanie i integracja danych", "path": "./jobs/opi-analityk-danych.html", "downloadPath": "./jobs/opi-analityk-danych.html"}
-    }
-  },
-  {
-    "key": "alior-data-platform-analyst",
-    "versions": {
-      "en": {"title": "Alior Bank: Data Platform Analyst", "description": "SQL, data warehousing, ETL, Data Marts, Power BI, Python and data quality", "path": "./jobs/alior-data-platform-analyst-en.html", "downloadPath": "./jobs/alior-data-platform-analyst-en.html"},
-      "pl": {"title": "Alior Bank: Data Platform Analyst", "description": "SQL, hurtownie danych, ETL, Data Marts, Power BI, Python i jakość danych", "path": "./jobs/alior-data-platform-analyst.html", "downloadPath": "./jobs/alior-data-platform-analyst.html"}
-    }
-  },
-  {
-    "key": "santander-junior-it-analyst",
-    "versions": {
-      "en": {"title": "Santander: Junior IT Analyst", "description": "SQL, data analysis, troubleshooting, root cause analysis and IT systems", "path": "./jobs/santander-junior-it-analyst-en.html", "downloadPath": "./jobs/santander-junior-it-analyst-en.html"},
-      "pl": {"title": "Santander: Młodszy Analityk IT", "description": "SQL, analiza danych, diagnostyka, root cause analysis i systemy IT", "path": "./jobs/santander-junior-it-analyst.html", "downloadPath": "./jobs/santander-junior-it-analyst.html"}
-    }
-  },
-  {
-    "key": "bat-junior-marketing-business-analyst",
-    "versions": {
-      "en": {"title": "BAT: Junior Marketing Business Analyst", "description": "IT support, business analysis, e-commerce, APIs, integrations and incident management", "path": "./jobs/bat-junior-marketing-business-analyst-en.html", "downloadPath": "./jobs/bat-junior-marketing-business-analyst-en.html"},
-      "pl": {"title": "BAT: Junior Marketing Business Analyst", "description": "IT support, analiza biznesowa, e-commerce, API, integracje i incident management", "path": "./jobs/bat-junior-marketing-business-analyst.html", "downloadPath": "./jobs/bat-junior-marketing-business-analyst.html"}
-    }
-  }
+  {"key":"ogolne","versions":{"en":{"title":"General","description":"General technical, IT and analytical profile","path":"./jobs/ogolne-en.html","downloadPath":"./downloads/Witold_Grzesiak_ogolne_EN.html"},"pl":{"title":"Ogólne","description":"CV ogólne — profil techniczny, IT i analityczny","path":"./jobs/ogolne.html","downloadPath":"./downloads/Witold_Grzesiak_ogolne_PL.html"}}},
+  {"key":"analiza-danych","versions":{"en":{"title":"Data Analysis","description":"Python, SQL, R, Power BI and reporting automation","path":"./jobs/analiza-danych-en.html","downloadPath":"./downloads/Witold_Grzesiak_analiza-danych_EN.html"},"pl":{"title":"Analiza danych","description":"Python, SQL, R, Power BI i automatyzacja raportowania","path":"./jobs/analiza-danych.html","downloadPath":"./downloads/Witold_Grzesiak_analiza-danych_PL.html"}}},
+  {"key":"automatyka","versions":{"en":{"title":"Automation","description":"Industrial automation, diagnostics and technical systems","path":"./jobs/automatyka-en.html","downloadPath":"./downloads/Witold_Grzesiak_automatyka_EN.html"},"pl":{"title":"Automatyka","description":"Automatyka przemysłowa, diagnostyka i systemy techniczne","path":"./jobs/automatyka.html","downloadPath":"./downloads/Witold_Grzesiak_automatyka_PL.html"}}},
+  {"key":"data-science","versions":{"en":{"title":"Data Science","description":"Data modelling, statistics and experiments in Python and R","path":"./jobs/data-science-en.html","downloadPath":"./downloads/Witold_Grzesiak_data-science_EN.html"},"pl":{"title":"Data Science","description":"Modelowanie danych, statystyka i eksperymenty w Pythonie oraz R","path":"./jobs/data-science.html","downloadPath":"./downloads/Witold_Grzesiak_data-science_PL.html"}}},
+  {"key":"robotyka","versions":{"en":{"title":"Robotics","description":"Robotics, systems integration and programming","path":"./jobs/robotyka-en.html","downloadPath":"./downloads/Witold_Grzesiak_robotyka_EN.html"},"pl":{"title":"Robotyka","description":"Robotyka, integracja systemów i programowanie","path":"./jobs/robotyka.html","downloadPath":"./downloads/Witold_Grzesiak_robotyka_PL.html"}}},
+  {"key":"sztuczna-inteligencja","versions":{"en":{"title":"Artificial Intelligence","description":"AI solutions, prompting, automation and integrations","path":"./jobs/sztuczna-inteligencja-en.html","downloadPath":"./downloads/Witold_Grzesiak_sztuczna-inteligencja_EN.html"},"pl":{"title":"Sztuczna inteligencja","description":"Rozwiązania AI, prompting, automatyzacja i integracje","path":"./jobs/sztuczna-inteligencja.html","downloadPath":"./downloads/Witold_Grzesiak_sztuczna-inteligencja_PL.html"}}},
+  {"key":"machine-learning","versions":{"en":{"title":"Machine Learning","description":"Machine learning, deep learning, computer vision and TensorFlow","path":"./jobs/ml-ai-en.html","downloadPath":"./downloads/Witold_Grzesiak_machine-learning_EN.html"},"pl":{"title":"Uczenie maszynowe","description":"Deep learning, computer vision, TensorFlow i rozwiązania AI","path":"./jobs/ml-ai.html","downloadPath":"./downloads/Witold_Grzesiak_machine-learning_PL.html"}}},
+  {"key":"bi-developer","versions":{"en":{"title":"BI Developer","description":"Power BI, SQL, ETL, DAX, Python and data modelling","path":"./jobs/bi-developer-en.html","downloadPath":"./jobs/bi-developer-en.html"},"pl":{"title":"BI Developer","description":"Power BI, SQL, ETL, DAX, Python i modelowanie danych","path":"./jobs/bi-developer.html","downloadPath":"./jobs/bi-developer.html"}}},
+  {"key":"biocodex-ai-bi","versions":{"en":{"title":"Biocodex: AI & BI","description":"Biocodex CV: Power BI, DAX, Excel, automation and AI","path":"./jobs/biocodex-ai-bi-en.html","downloadPath":"./downloads/Witold_Grzesiak_biocodex-ai-bi_EN.html"},"pl":{"title":"Biocodex: AI & BI","description":"CV dla Biocodex: Power BI, DAX, Excel, automatyzacja i AI","path":"./jobs/biocodex-ai-bi.html","downloadPath":"./downloads/Witold_Grzesiak_biocodex-ai-bi_PL.html"}}},
+  {"key":"associate-data-operations-specialist","versions":{"en":{"title":"Associate Data Operations Specialist","description":"SQL, Power BI, ETL, Linux, troubleshooting and Data Operations","path":"./jobs/associate-data-operations-specialist-en.html","downloadPath":"./jobs/associate-data-operations-specialist-en.html"},"pl":{"title":"Associate Data Operations Specialist","description":"SQL, Power BI, ETL, Linux, troubleshooting i Data Operations","path":"./jobs/associate-data-operations-specialist.html","downloadPath":"./jobs/associate-data-operations-specialist.html"}}},
+  {"key":"mindbox-junior-data-engineer","versions":{"en":{"title":"Mindbox: Junior Data Engineer","description":"Python, SQL, Linux, MATLAB, data modelling and AI/ML","path":"./jobs/mindbox-junior-data-engineer-en.html","downloadPath":"./jobs/mindbox-junior-data-engineer-en.html"},"pl":{"title":"Mindbox: Junior Data Engineer","description":"Python, SQL, Linux, MATLAB, modelowanie danych i AI/ML","path":"./jobs/mindbox-junior-data-engineer.html","downloadPath":"./jobs/mindbox-junior-data-engineer.html"}}},
+  {"key":"michael-page-junior-financial-analyst","versions":{"en":{"title":"Michael Page: Junior Financial Analyst","description":"Power BI, Power Query, Excel, reporting, KPIs and data quality","path":"./jobs/michael-page-junior-financial-analyst-en.html","downloadPath":"./jobs/michael-page-junior-financial-analyst-en.html"},"pl":{"title":"Michael Page: Młodszy Analityk Finansowy","description":"Power BI, Power Query, Excel, raportowanie, KPI i jakość danych","path":"./jobs/michael-page-junior-financial-analyst.html","downloadPath":"./jobs/michael-page-junior-financial-analyst.html"}}},
+  {"key":"opi-analityk-danych","versions":{"en":{"title":"OPI PIB: Data Analyst","description":"SQL, data warehousing, ETL, BI, reporting and data integration","path":"./jobs/opi-analityk-danych-en.html","downloadPath":"./jobs/opi-analityk-danych-en.html"},"pl":{"title":"OPI PIB: Analityk Danych","description":"SQL, hurtownie danych, ETL, BI, raportowanie i integracja danych","path":"./jobs/opi-analityk-danych.html","downloadPath":"./jobs/opi-analityk-danych.html"}}},
+  {"key":"alior-data-platform-analyst","versions":{"en":{"title":"Alior Bank: Data Platform Analyst","description":"SQL, data warehousing, ETL, Data Marts, Power BI, Python and data quality","path":"./jobs/alior-data-platform-analyst-en.html","downloadPath":"./jobs/alior-data-platform-analyst-en.html"},"pl":{"title":"Alior Bank: Data Platform Analyst","description":"SQL, hurtownie danych, ETL, Data Marts, Power BI, Python i jakość danych","path":"./jobs/alior-data-platform-analyst.html","downloadPath":"./jobs/alior-data-platform-analyst.html"}}},
+  {"key":"santander-junior-it-analyst","versions":{"en":{"title":"Santander: Junior IT Analyst","description":"SQL, data analysis, troubleshooting, root cause analysis and IT systems","path":"./jobs/santander-junior-it-analyst-en.html","downloadPath":"./jobs/santander-junior-it-analyst-en.html"},"pl":{"title":"Santander: Młodszy Analityk IT","description":"SQL, analiza danych, diagnostyka, root cause analysis i systemy IT","path":"./jobs/santander-junior-it-analyst.html","downloadPath":"./jobs/santander-junior-it-analyst.html"}}},
+  {"key":"bat-junior-marketing-business-analyst","versions":{"en":{"title":"BAT: Junior Marketing Business Analyst","description":"IT support, business analysis, e-commerce, APIs, integrations and incident management","path":"./jobs/bat-junior-marketing-business-analyst-en.html","downloadPath":"./jobs/bat-junior-marketing-business-analyst-en.html"},"pl":{"title":"BAT: Junior Marketing Business Analyst","description":"IT support, analiza biznesowa, e-commerce, API, integracje i incident management","path":"./jobs/bat-junior-marketing-business-analyst.html","downloadPath":"./jobs/bat-junior-marketing-business-analyst.html"}}},
+  {"key":"dsv-junior-analyst","versions":{"en":{"title":"DSV: Junior Analyst","description":"Python, Pandas, NumPy, Excel, Power Query, Power BI, reporting and automation","path":"./jobs/dsv-junior-analyst-en.html","downloadPath":"./jobs/dsv-junior-analyst-en.html"},"pl":{"title":"DSV: Junior Analyst","description":"Python, Pandas, NumPy, Excel, Power Query, Power BI, raportowanie i automatyzacja","path":"./jobs/dsv-junior-analyst.html","downloadPath":"./jobs/dsv-junior-analyst.html"}}}
 ]
