@@ -372,5 +372,22 @@
         "downloadPath": "./jobs/benefit-systems-process-automation-b2b.html"
       }
     }
+  },
+  {
+    "key": "wskz-analizy-ewaluacja-procesow",
+    "versions": {
+      "en": {
+        "title": "WSKZ: Junior Process Analysis & Evaluation Specialist",
+        "description": "Excel, reporting, data analysis, Power BI, process evaluation and optimisation, data quality",
+        "path": "./jobs/wskz-analizy-ewaluacja-procesow-en.html",
+        "downloadPath": "./jobs/wskz-analizy-ewaluacja-procesow-en.html"
+      },
+      "pl": {
+        "title": "WSKZ: Młodszy Specjalista ds. analiz i ewaluacji procesów",
+        "description": "Excel, raportowanie, analiza danych, Power BI, ewaluacja i optymalizacja procesów, data quality",
+        "path": "./jobs/wskz-analizy-ewaluacja-procesow.html",
+        "downloadPath": "./jobs/wskz-analizy-ewaluacja-procesow.html"
+      }
+    }
   }
 ]
