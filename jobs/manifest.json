@@ -304,5 +304,22 @@
         "downloadPath": "./jobs/ricoh-junior-project-manager.html"
       }
     }
+  },
+  {
+    "key": "flexi-junior-epm-bi-engineer",
+    "versions": {
+      "en": {
+        "title": "FLEXI SOLUTIONS: Junior EPM / BI Engineer",
+        "description": "SQL, Excel, Power BI, DAX, data models, reporting, troubleshooting and systems support",
+        "path": "./jobs/flexi-junior-epm-bi-engineer-en.html",
+        "downloadPath": "./jobs/flexi-junior-epm-bi-engineer-en.html"
+      },
+      "pl": {
+        "title": "FLEXI SOLUTIONS: Junior EPM / BI Engineer",
+        "description": "SQL, Excel, Power BI, DAX, modele danych, raportowanie, troubleshooting i wsparcie systemów",
+        "path": "./jobs/flexi-junior-epm-bi-engineer.html",
+        "downloadPath": "./jobs/flexi-junior-epm-bi-engineer.html"
+      }
+    }
   }
 ]
