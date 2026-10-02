@@ -321,5 +321,22 @@
         "downloadPath": "./jobs/flexi-junior-epm-bi-engineer.html"
       }
     }
+  },
+  {
+    "key": "finker-data-analyst",
+    "versions": {
+      "en": {
+        "title": "FINKER: Data Analyst",
+        "description": "Power BI, SQL, DAX, Power Query, Python, APIs, ETL, data quality, Excel and AI",
+        "path": "./jobs/finker-data-analyst-en.html",
+        "downloadPath": "./jobs/finker-data-analyst-en.html"
+      },
+      "pl": {
+        "title": "FINKER: Data Analyst",
+        "description": "Power BI, SQL, DAX, Power Query, Python, API, ETL, data quality, Excel i AI",
+        "path": "./jobs/finker-data-analyst.html",
+        "downloadPath": "./jobs/finker-data-analyst.html"
+      }
+    }
   }
 ]
