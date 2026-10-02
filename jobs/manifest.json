@@ -338,5 +338,22 @@
         "downloadPath": "./jobs/finker-data-analyst.html"
       }
     }
+  },
+  {
+    "key": "xtb-junior-aml-specialist",
+    "versions": {
+      "en": {
+        "title": "XTB: Junior AML Specialist",
+        "description": "Data analysis, SQL, reporting, anomaly detection, documentation, English and cross-functional collaboration",
+        "path": "./jobs/xtb-junior-aml-specialist-en.html",
+        "downloadPath": "./jobs/xtb-junior-aml-specialist-en.html"
+      },
+      "pl": {
+        "title": "XTB: Młodszy Specjalista ds. AML",
+        "description": "Analiza danych, SQL, raportowanie, analiza anomalii, dokumentacja, angielski i współpraca międzydziałowa",
+        "path": "./jobs/xtb-junior-aml-specialist.html",
+        "downloadPath": "./jobs/xtb-junior-aml-specialist.html"
+      }
+    }
   }
 ]
