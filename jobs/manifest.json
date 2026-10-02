@@ -355,5 +355,22 @@
         "downloadPath": "./jobs/xtb-junior-aml-specialist.html"
       }
     }
+  },
+  {
+    "key": "benefit-systems-process-automation-b2b",
+    "versions": {
+      "en": {
+        "title": "Benefit Systems: Process Automation & B2B Operations",
+        "description": "Process automation, SQL, Excel, reporting, documentation, administration and requirements analysis",
+        "path": "./jobs/benefit-systems-process-automation-b2b-en.html",
+        "downloadPath": "./jobs/benefit-systems-process-automation-b2b-en.html"
+      },
+      "pl": {
+        "title": "Benefit Systems: Automatyzacja Procesów i Obsługa Umów B2B",
+        "description": "Automatyzacja procesów, SQL, Excel, raportowanie, dokumentacja, administracja i analiza wymagań",
+        "path": "./jobs/benefit-systems-process-automation-b2b.html",
+        "downloadPath": "./jobs/benefit-systems-process-automation-b2b.html"
+      }
+    }
   }
 ]
