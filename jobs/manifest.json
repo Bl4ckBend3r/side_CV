@@ -389,5 +389,16 @@
         "downloadPath": "./jobs/wskz-analizy-ewaluacja-procesow.html"
       }
     }
+  },
+  {
+    "key": "velvet-care-analizy-sprzedazowe",
+    "versions": {
+      "pl": {
+        "title": "Velvet CARE: Analizy Sprzedażowe",
+        "description": "Excel, Power BI, SQL, KPI, raportowanie sprzedaży, jakość danych i automatyzacja",
+        "path": "./jobs/velvet-care-analizy-sprzedazowe.html",
+        "downloadPath": "./jobs/velvet-care-analizy-sprzedazowe.html"
+      }
+    }
   }
 ]
