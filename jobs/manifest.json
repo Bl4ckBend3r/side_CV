@@ -468,5 +468,22 @@
         "downloadPath": "./jobs/arvato-junior-data-engineer.html"
       }
     }
+  },
+  {
+    "key": "castorama-ecommerce-crm-analyst",
+    "versions": {
+      "en": {
+        "title": "Castorama: Junior E-Commerce & CRM Analyst",
+        "description": "SQL, Power BI, KPIs, sales analysis, data quality, reporting and automation",
+        "path": "./jobs/castorama-ecommerce-crm-analyst-en.html",
+        "downloadPath": "./jobs/castorama-ecommerce-crm-analyst-en.html"
+      },
+      "pl": {
+        "title": "Castorama: Młodszy Analityk E-Commerce i CRM",
+        "description": "SQL, Power BI, KPI, analiza sprzedaży, jakość danych, raportowanie i automatyzacja",
+        "path": "./jobs/castorama-ecommerce-crm-analyst.html",
+        "downloadPath": "./jobs/castorama-ecommerce-crm-analyst.html"
+      }
+    }
   }
 ]
