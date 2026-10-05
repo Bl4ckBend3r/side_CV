@@ -451,5 +451,22 @@
         "downloadPath": "./jobs/ecom-junior-data-analyst.html"
       }
     }
+  },
+  {
+    "key": "arvato-junior-data-engineer",
+    "versions": {
+      "en": {
+        "title": "Arvato: Junior Data Engineer",
+        "description": "SQL, DAX, Power BI, data modelling, Data Warehouse, ETL and data quality",
+        "path": "./jobs/arvato-junior-data-engineer-en.html",
+        "downloadPath": "./jobs/arvato-junior-data-engineer-en.html"
+      },
+      "pl": {
+        "title": "Arvato: Junior Data Engineer",
+        "description": "SQL, DAX, Power BI, modelowanie danych, Data Warehouse, ETL i jakość danych",
+        "path": "./jobs/arvato-junior-data-engineer.html",
+        "downloadPath": "./jobs/arvato-junior-data-engineer.html"
+      }
+    }
   }
 ]
