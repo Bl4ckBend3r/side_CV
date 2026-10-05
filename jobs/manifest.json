@@ -434,5 +434,22 @@
         "downloadPath": "./jobs/modivo-mlodszy-analityk-sql-bi.html"
       }
     }
+  },
+  {
+    "key": "ecom-junior-data-analyst",
+    "versions": {
+      "en": {
+        "title": "ecom: Junior Data Analyst",
+        "description": "Excel, data analysis, business requirements, data quality, databases, developer collaboration and Scrum",
+        "path": "./jobs/ecom-junior-data-analyst-en.html",
+        "downloadPath": "./jobs/ecom-junior-data-analyst-en.html"
+      },
+      "pl": {
+        "title": "ecom: Junior Data Analyst",
+        "description": "Excel, analiza danych, wymagania biznesowe, jakość danych, bazy danych, współpraca z developerami i Scrum",
+        "path": "./jobs/ecom-junior-data-analyst.html",
+        "downloadPath": "./jobs/ecom-junior-data-analyst.html"
+      }
+    }
   }
 ]
