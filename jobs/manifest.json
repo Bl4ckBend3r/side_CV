@@ -587,5 +587,22 @@
         "downloadPath": "./jobs/naukagryzie-ai-product-builder.html"
       }
     }
+  },
+  {
+    "key": "cyfrowy-polsat-ai-engineer-streaming",
+    "versions": {
+      "en": {
+        "title": "Cyfrowy Polsat: AI Engineer - Streaming Platform",
+        "description": "Python, ML, LLM, RAG, vector search, FastAPI, Qdrant, Docker and Computer Vision",
+        "path": "./jobs/cyfrowy-polsat-ai-engineer-streaming-en.html",
+        "downloadPath": "./jobs/cyfrowy-polsat-ai-engineer-streaming-en.html"
+      },
+      "pl": {
+        "title": "Cyfrowy Polsat: AI Engineer - Streaming Platform",
+        "description": "Python, ML, LLM, RAG, vector search, FastAPI, Qdrant, Docker i Computer Vision",
+        "path": "./jobs/cyfrowy-polsat-ai-engineer-streaming.html",
+        "downloadPath": "./jobs/cyfrowy-polsat-ai-engineer-streaming.html"
+      }
+    }
   }
 ]
