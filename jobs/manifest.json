@@ -502,5 +502,6 @@
         "downloadPath": "./jobs/square-one-supply-chain-planning-consultant.html"
       }
     }
-  }
+  },
+  {"key":"antal-data-ai-engineer","versions":{"en":{"title":"Antal: Data & AI Engineer","description":"Python, FastAPI, RAG, Qdrant, Vector DB, Docker, AI/ML, REST APIs and SQL","path":"./jobs/antal-data-ai-engineer-en.html","downloadPath":"./jobs/antal-data-ai-engineer-en.html"},"pl":{"title":"Antal: Data & AI Engineer","description":"Python, FastAPI, RAG, Qdrant, Vector DB, Docker, AI/ML, REST API i SQL","path":"./jobs/antal-data-ai-engineer.html","downloadPath":"./jobs/antal-data-ai-engineer.html"}}}
 ]
