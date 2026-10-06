@@ -503,8 +503,89 @@
       }
     }
   },
-  {"key":"antal-data-ai-engineer","versions":{"en":{"title":"Antal: Data & AI Engineer","description":"Python, FastAPI, RAG, Qdrant, Vector DB, Docker, AI/ML, REST APIs and SQL","path":"./jobs/antal-data-ai-engineer-en.html","downloadPath":"./jobs/antal-data-ai-engineer-en.html"},"pl":{"title":"Antal: Data & AI Engineer","description":"Python, FastAPI, RAG, Qdrant, Vector DB, Docker, AI/ML, REST API i SQL","path":"./jobs/antal-data-ai-engineer.html","downloadPath":"./jobs/antal-data-ai-engineer.html"}}},
-  {"key":"opera-ai-product-builder","versions":{"en":{"title":"Opera: AI Product Builder","description":"LLM, RAG, Python, FastAPI, AI prototyping, prompting, APIs and user-focused product building","path":"./jobs/opera-ai-product-builder-en.html","downloadPath":"./jobs/opera-ai-product-builder-en.html"},"pl":{"title":"Opera: AI Product Builder","description":"LLM, RAG, Python, FastAPI, prototypowanie AI, prompting, API i budowanie rozwiązań dla użytkowników","path":"./jobs/opera-ai-product-builder.html","downloadPath":"./jobs/opera-ai-product-builder.html"}}},
-  {"key":"photoaid-zero-bullshit-growth-2026","versions":{"en":{"title":"PhotoAiD: Zero Bullshit Growth Program 2026","description":"AI, Analytics & IT: Python, RAG, prototyping, SQL, Power BI, automation and fast learning","path":"./jobs/photoaid-zero-bullshit-growth-2026-en.html","downloadPath":"./jobs/photoaid-zero-bullshit-growth-2026-en.html"},"pl":{"title":"PhotoAiD: Zero Bullshit Growth Program 2026","description":"AI, Analityka & IT: Python, RAG, prototypowanie, SQL, Power BI, automatyzacja i szybka nauka","path":"./jobs/photoaid-zero-bullshit-growth-2026.html","downloadPath":"./jobs/photoaid-zero-bullshit-growth-2026.html"}}},
-  {"key":"laminar-shape-ai-engineer","versions":{"en":{"title":"Shape / Laminar Projects: AI Engineer","description":"LLM, RAG, Python, FastAPI, Qdrant, prompt engineering, model evaluation, Docker and AI prototyping","path":"./jobs/laminar-shape-ai-engineer-en.html","downloadPath":"./jobs/laminar-shape-ai-engineer-en.html"},"pl":{"title":"Shape / Laminar Projects: AI Engineer","description":"LLM, RAG, Python, FastAPI, Qdrant, prompt engineering, ewaluacja modeli, Docker i prototypowanie AI","path":"./jobs/laminar-shape-ai-engineer.html","downloadPath":"./jobs/laminar-shape-ai-engineer.html"}}}
+  {
+    "key": "antal-data-ai-engineer",
+    "versions": {
+      "en": {
+        "title": "Antal: Data & AI Engineer",
+        "description": "Python, FastAPI, RAG, Qdrant, Vector DB, Docker, AI/ML, REST APIs and SQL",
+        "path": "./jobs/antal-data-ai-engineer-en.html",
+        "downloadPath": "./jobs/antal-data-ai-engineer-en.html"
+      },
+      "pl": {
+        "title": "Antal: Data & AI Engineer",
+        "description": "Python, FastAPI, RAG, Qdrant, Vector DB, Docker, AI/ML, REST API i SQL",
+        "path": "./jobs/antal-data-ai-engineer.html",
+        "downloadPath": "./jobs/antal-data-ai-engineer.html"
+      }
+    }
+  },
+  {
+    "key": "opera-ai-product-builder",
+    "versions": {
+      "en": {
+        "title": "Opera: AI Product Builder",
+        "description": "LLM, RAG, Python, FastAPI, AI prototyping, prompting, APIs and user-focused product building",
+        "path": "./jobs/opera-ai-product-builder-en.html",
+        "downloadPath": "./jobs/opera-ai-product-builder-en.html"
+      },
+      "pl": {
+        "title": "Opera: AI Product Builder",
+        "description": "LLM, RAG, Python, FastAPI, prototypowanie AI, prompting, API i budowanie rozwiązań dla użytkowników",
+        "path": "./jobs/opera-ai-product-builder.html",
+        "downloadPath": "./jobs/opera-ai-product-builder.html"
+      }
+    }
+  },
+  {
+    "key": "photoaid-zero-bullshit-growth-2026",
+    "versions": {
+      "en": {
+        "title": "PhotoAiD: Zero Bullshit Growth Program 2026",
+        "description": "AI, Analytics & IT: Python, RAG, prototyping, SQL, Power BI, automation and fast learning",
+        "path": "./jobs/photoaid-zero-bullshit-growth-2026-en.html",
+        "downloadPath": "./jobs/photoaid-zero-bullshit-growth-2026-en.html"
+      },
+      "pl": {
+        "title": "PhotoAiD: Zero Bullshit Growth Program 2026",
+        "description": "AI, Analityka & IT: Python, RAG, prototypowanie, SQL, Power BI, automatyzacja i szybka nauka",
+        "path": "./jobs/photoaid-zero-bullshit-growth-2026.html",
+        "downloadPath": "./jobs/photoaid-zero-bullshit-growth-2026.html"
+      }
+    }
+  },
+  {
+    "key": "laminar-shape-ai-engineer",
+    "versions": {
+      "en": {
+        "title": "Shape / Laminar Projects: AI Engineer",
+        "description": "LLM, RAG, Python, FastAPI, Qdrant, prompt engineering, model evaluation, Docker and AI prototyping",
+        "path": "./jobs/laminar-shape-ai-engineer-en.html",
+        "downloadPath": "./jobs/laminar-shape-ai-engineer-en.html"
+      },
+      "pl": {
+        "title": "Shape / Laminar Projects: AI Engineer",
+        "description": "LLM, RAG, Python, FastAPI, Qdrant, prompt engineering, ewaluacja modeli, Docker i prototypowanie AI",
+        "path": "./jobs/laminar-shape-ai-engineer.html",
+        "downloadPath": "./jobs/laminar-shape-ai-engineer.html"
+      }
+    }
+  },
+  {
+    "key": "naukagryzie-ai-product-builder",
+    "versions": {
+      "en": {
+        "title": "Nauka Gryzie / Edubite: AI Product Builder",
+        "description": "Shipped product, AI-assisted development, Next.js, LLM, RAG, Python and rapid prototyping",
+        "path": "./jobs/naukagryzie-ai-product-builder-en.html",
+        "downloadPath": "./jobs/naukagryzie-ai-product-builder-en.html"
+      },
+      "pl": {
+        "title": "Nauka Gryzie / Edubite: AI Product Builder",
+        "description": "Wdrożony produkt, AI-assisted development, Next.js, LLM, RAG, Python i szybkie prototypowanie",
+        "path": "./jobs/naukagryzie-ai-product-builder.html",
+        "downloadPath": "./jobs/naukagryzie-ai-product-builder.html"
+      }
+    }
+  }
 ]
