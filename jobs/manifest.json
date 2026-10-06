@@ -485,5 +485,22 @@
         "downloadPath": "./jobs/castorama-ecommerce-crm-analyst.html"
       }
     }
+  },
+  {
+    "key": "square-one-supply-chain-planning-consultant",
+    "versions": {
+      "en": {
+        "title": "Square One: Supply Chain Planning Systems Consultant",
+        "description": "SQL, data analysis, data modelling, Python, problem solving and technical consulting",
+        "path": "./jobs/square-one-supply-chain-planning-consultant-en.html",
+        "downloadPath": "./jobs/square-one-supply-chain-planning-consultant-en.html"
+      },
+      "pl": {
+        "title": "Square One: Supply Chain Planning Systems Consultant",
+        "description": "SQL, analiza danych, modelowanie danych, Python, problem solving i konsulting techniczny",
+        "path": "./jobs/square-one-supply-chain-planning-consultant.html",
+        "downloadPath": "./jobs/square-one-supply-chain-planning-consultant.html"
+      }
+    }
   }
 ]
