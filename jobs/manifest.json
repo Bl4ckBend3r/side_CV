@@ -689,5 +689,22 @@
         "downloadPath": "./jobs/media-expert-sql-developer.html"
       }
     }
+  },
+  {
+    "key": "nexus-junior-software-tester",
+    "versions": {
+      "en": {
+        "title": "Nexus Polska: Junior Software Tester",
+        "description": "Manual and functional testing, troubleshooting, SQL, REST API, documentation and defect analysis",
+        "path": "./jobs/nexus-junior-software-tester-en.html",
+        "downloadPath": "./jobs/nexus-junior-software-tester-en.html"
+      },
+      "pl": {
+        "title": "Nexus Polska: Młodszy Tester Oprogramowania",
+        "description": "Testy manualne i funkcjonalne, troubleshooting, SQL, REST API, dokumentacja i analiza błędów",
+        "path": "./jobs/nexus-junior-software-tester.html",
+        "downloadPath": "./jobs/nexus-junior-software-tester.html"
+      }
+    }
   }
 ]
