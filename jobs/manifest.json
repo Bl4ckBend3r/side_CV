@@ -655,5 +655,22 @@
         "downloadPath": "./jobs/dhl-hr-analyst-power-bi.html"
       }
     }
+  },
+  {
+    "key": "adapa-data-analysis-reporting",
+    "versions": {
+      "en": {
+        "title": "adapa: Data Analysis & Reporting",
+        "description": "SQL, Excel, Power Query, Power BI, operational analytics, KPIs, data quality and reporting",
+        "path": "./jobs/adapa-data-analysis-reporting-en.html",
+        "downloadPath": "./jobs/adapa-data-analysis-reporting-en.html"
+      },
+      "pl": {
+        "title": "adapa: Data Analysis & Reporting",
+        "description": "SQL, Excel, Power Query, Power BI, analiza operacyjna, KPI, jakość danych i raportowanie",
+        "path": "./jobs/adapa-data-analysis-reporting.html",
+        "downloadPath": "./jobs/adapa-data-analysis-reporting.html"
+      }
+    }
   }
 ]
