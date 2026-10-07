@@ -638,5 +638,22 @@
         "downloadPath": "./jobs/spicesolutions-junior-bi-power-bi.html"
       }
     }
+  },
+  {
+    "key": "dhl-hr-analyst-power-bi",
+    "versions": {
+      "en": {
+        "title": "DHL: HR Analyst with Power BI",
+        "description": "Power BI, Excel, Power Query, SQL, DAX, dashboards, reporting automation and data analysis",
+        "path": "./jobs/dhl-hr-analyst-power-bi-en.html",
+        "downloadPath": "./jobs/dhl-hr-analyst-power-bi-en.html"
+      },
+      "pl": {
+        "title": "DHL: Analityk HR z Power BI",
+        "description": "Power BI, Excel, Power Query, SQL, DAX, dashboardy, automatyzacja raportowania i analiza danych",
+        "path": "./jobs/dhl-hr-analyst-power-bi.html",
+        "downloadPath": "./jobs/dhl-hr-analyst-power-bi.html"
+      }
+    }
   }
 ]
