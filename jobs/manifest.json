@@ -672,5 +672,22 @@
         "downloadPath": "./jobs/adapa-data-analysis-reporting.html"
       }
     }
+  },
+  {
+    "key": "media-expert-sql-developer",
+    "versions": {
+      "en": {
+        "title": "Media Expert: SQL Developer",
+        "description": "SQL, Power BI, Excel, DAX, Power Query, ETL, Python, KPIs, data quality and reporting automation",
+        "path": "./jobs/media-expert-sql-developer-en.html",
+        "downloadPath": "./jobs/media-expert-sql-developer-en.html"
+      },
+      "pl": {
+        "title": "Media Expert: SQL Developer",
+        "description": "SQL, Power BI, Excel, DAX, Power Query, ETL, Python, KPI, jakość danych i automatyzacja raportowania",
+        "path": "./jobs/media-expert-sql-developer.html",
+        "downloadPath": "./jobs/media-expert-sql-developer.html"
+      }
+    }
   }
 ]
