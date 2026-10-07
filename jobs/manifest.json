@@ -604,5 +604,22 @@
         "downloadPath": "./jobs/cyfrowy-polsat-ai-engineer-streaming.html"
       }
     }
+  },
+  {
+    "key": "emerging-travel-junior-data-analyst",
+    "versions": {
+      "en": {
+        "title": "Emerging Travel Group: Junior Data Analyst",
+        "description": "SQL, data quality, Power BI, Python, Excel, dashboards, data marts and analytics",
+        "path": "./jobs/emerging-travel-junior-data-analyst-en.html",
+        "downloadPath": "./jobs/emerging-travel-junior-data-analyst-en.html"
+      },
+      "pl": {
+        "title": "Emerging Travel Group: Junior Data Analyst",
+        "description": "SQL, jakość danych, Power BI, Python, Excel, dashboardy, data marts i analityka",
+        "path": "./jobs/emerging-travel-junior-data-analyst.html",
+        "downloadPath": "./jobs/emerging-travel-junior-data-analyst.html"
+      }
+    }
   }
 ]
