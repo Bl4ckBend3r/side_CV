@@ -621,5 +621,22 @@
         "downloadPath": "./jobs/emerging-travel-junior-data-analyst.html"
       }
     }
+  },
+  {
+    "key": "spicesolutions-junior-bi-power-bi",
+    "versions": {
+      "en": {
+        "title": "SpiceSolutions: Junior BI Analyst (MS Power BI)",
+        "description": "Power BI, SQL, Excel, DAX, Power Query, data models, dashboards and data integration",
+        "path": "./jobs/spicesolutions-junior-bi-power-bi-en.html",
+        "downloadPath": "./jobs/spicesolutions-junior-bi-power-bi-en.html"
+      },
+      "pl": {
+        "title": "SpiceSolutions: Junior Analityk BI (MS Power BI)",
+        "description": "Power BI, SQL, Excel, DAX, Power Query, modele danych, dashboardy i integracja danych",
+        "path": "./jobs/spicesolutions-junior-bi-power-bi.html",
+        "downloadPath": "./jobs/spicesolutions-junior-bi-power-bi.html"
+      }
+    }
   }
 ]
