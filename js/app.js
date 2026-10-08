@@ -27,6 +27,23 @@ const supplementalProfiles = [
         downloadPath: './jobs/bank-pocztowy-junior-credit-risk.html'
       }
     }
+  },
+  {
+    key: 'pko-faktoring-data-analyst',
+    versions: {
+      en: {
+        title: 'PKO Faktoring: Data Analyst',
+        description: 'SQL, Power BI, reporting, risk analytics, modelling, automation and data quality',
+        path: './jobs/pko-faktoring-data-analyst-en.html',
+        downloadPath: './jobs/pko-faktoring-data-analyst-en.html'
+      },
+      pl: {
+        title: 'PKO Faktoring: Analityk / Analityczka Danych',
+        description: 'SQL, Power BI, raportowanie, analiza ryzyka, modelowanie, automatyzacja i data quality',
+        path: './jobs/pko-faktoring-data-analyst.html',
+        downloadPath: './jobs/pko-faktoring-data-analyst.html'
+      }
+    }
   }
 ];
 
