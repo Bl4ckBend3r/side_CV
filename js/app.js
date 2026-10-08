@@ -61,6 +61,23 @@ const supplementalProfiles = [
         downloadPath: './jobs/focus-research-junior-analyst.html'
       }
     }
+  },
+  {
+    key: 'kolomolo-referral-data-ai-bi',
+    versions: {
+      en: {
+        title: 'Kolomolo: Referral Vacancy — Data / BI / AI',
+        description: 'SQL, Power BI, Python, Data Analytics, ETL, RAG, AI/ML and automation',
+        path: './jobs/kolomolo-referral-data-ai-bi-en.html',
+        downloadPath: './jobs/kolomolo-referral-data-ai-bi-en.html'
+      },
+      pl: {
+        title: 'Kolomolo: Referral Vacancy — Data / BI / AI',
+        description: 'SQL, Power BI, Python, analiza danych, ETL, RAG, AI/ML i automatyzacja',
+        path: './jobs/kolomolo-referral-data-ai-bi.html',
+        downloadPath: './jobs/kolomolo-referral-data-ai-bi.html'
+      }
+    }
   }
 ];
 
