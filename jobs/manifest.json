@@ -706,5 +706,22 @@
         "downloadPath": "./jobs/nexus-junior-software-tester.html"
       }
     }
+  },
+  {
+    "key": "falck-ai-adoption",
+    "versions": {
+      "en": {
+        "title": "Falck: IT Business Analyst – AI Adoption",
+        "description": "Business analysis, AI adoption, LLM, RAG, Python, SQL and testing",
+        "path": "./jobs/falck-ai-adoption-en.html",
+        "downloadPath": "./jobs/falck-ai-adoption-en.html"
+      },
+      "pl": {
+        "title": "Falck: IT Business Analyst – AI Adoption",
+        "description": "Analiza wymagań, wdrażanie AI, LLM, RAG, Python, SQL i testowanie",
+        "path": "./jobs/falck-ai-adoption.html",
+        "downloadPath": "./jobs/falck-ai-adoption.html"
+      }
+    }
   }
 ]
