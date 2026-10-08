@@ -10,6 +10,26 @@ let profiles = [];
 let selectedKey = location.hash.slice(1) || 'ogolne';
 let selectedLang = localStorage.getItem('cv-language') || 'pl';
 
+const supplementalProfiles = [
+  {
+    key: 'bank-pocztowy-junior-credit-risk',
+    versions: {
+      en: {
+        title: 'Bank Pocztowy: Junior Credit Risk Specialist',
+        description: 'SQL, Python, Power BI, data analysis, modelling, data quality and machine learning',
+        path: './jobs/bank-pocztowy-junior-credit-risk-en.html',
+        downloadPath: './jobs/bank-pocztowy-junior-credit-risk-en.html'
+      },
+      pl: {
+        title: 'Bank Pocztowy: Młodszy Specjalista ds. ryzyka kredytowego',
+        description: 'SQL, Python, Power BI, analiza danych, modelowanie, data quality i machine learning',
+        path: './jobs/bank-pocztowy-junior-credit-risk.html',
+        downloadPath: './jobs/bank-pocztowy-junior-credit-risk.html'
+      }
+    }
+  }
+];
+
 const currentVersion = profile => profile.versions[selectedLang] || profile.versions.pl || profile.versions.en;
 
 function showProfile(profile, button, updateUrl = true) {
@@ -62,5 +82,12 @@ fetch('./jobs/manifest.json')
     if (!response.ok) throw new Error('Nie udało się pobrać listy CV.');
     return response.json();
   })
-  .then(data => { profiles = data; status.hidden = true; renderTabs(); })
+  .then(data => {
+    profiles = data;
+    supplementalProfiles.forEach(profile => {
+      if (!profiles.some(item => item.key === profile.key)) profiles.push(profile);
+    });
+    status.hidden = true;
+    renderTabs();
+  })
   .catch(error => { status.textContent = error.message; });
