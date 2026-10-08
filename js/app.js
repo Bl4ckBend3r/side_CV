@@ -44,6 +44,23 @@ const supplementalProfiles = [
         downloadPath: './jobs/pko-faktoring-data-analyst.html'
       }
     }
+  },
+  {
+    key: 'focus-research-junior-analyst',
+    versions: {
+      en: {
+        title: 'FOCUS Research: Junior Analyst',
+        description: 'Excel, SQL, business data analysis, reporting, databases, data quality and automation',
+        path: './jobs/focus-research-junior-analyst-en.html',
+        downloadPath: './jobs/focus-research-junior-analyst-en.html'
+      },
+      pl: {
+        title: 'FOCUS Research: Młodszy/a Analityk',
+        description: 'Excel, SQL, analiza danych biznesowych, raportowanie, bazy danych, data quality i automatyzacja',
+        path: './jobs/focus-research-junior-analyst.html',
+        downloadPath: './jobs/focus-research-junior-analyst.html'
+      }
+    }
   }
 ];
 
