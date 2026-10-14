@@ -774,5 +774,22 @@
         "downloadPath": "./jobs/tylko-junior-data-engineer-en.html"
       }
     }
+  },
+  {
+    "key": "cloud-technologies-data-solutions-engineer",
+    "versions": {
+      "pl": {
+        "title": "Cloud Technologies: Data Solutions Engineer",
+        "description": "Python, Pandas, JSON, Excel, SQL, API i automatyzacja",
+        "path": "./jobs/cloud-technologies-data-solutions-engineer.html",
+        "downloadPath": "./jobs/cloud-technologies-data-solutions-engineer.html"
+      },
+      "en": {
+        "title": "Cloud Technologies: Data Solutions Engineer",
+        "description": "Python, Pandas, JSON, Excel, SQL, APIs and automation",
+        "path": "./jobs/cloud-technologies-data-solutions-engineer-en.html",
+        "downloadPath": "./jobs/cloud-technologies-data-solutions-engineer-en.html"
+      }
+    }
   }
 ]
