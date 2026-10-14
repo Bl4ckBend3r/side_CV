@@ -723,5 +723,22 @@
         "downloadPath": "./jobs/falck-ai-adoption.html"
       }
     }
+  },
+  {
+    "key": "allegro-junior-data-engineer-data-tools",
+    "versions": {
+      "pl": {
+        "title": "Allegro: Junior Data Engineer – Data Tools",
+        "description": "Python, SQL, REST API, ETL, RAG, LLM, Qdrant, Docker, data quality",
+        "path": "./jobs/allegro-junior-data-engineer-data-tools.html",
+        "downloadPath": "./jobs/allegro-junior-data-engineer-data-tools.html"
+      },
+      "en": {
+        "title": "Allegro: Junior Data Engineer – Data Tools",
+        "description": "Python, SQL, REST APIs, ETL, RAG, LLMs, Qdrant, Docker and data quality",
+        "path": "./jobs/allegro-junior-data-engineer-data-tools-en.html",
+        "downloadPath": "./jobs/allegro-junior-data-engineer-data-tools-en.html"
+      }
+    }
   }
 ]
