@@ -740,5 +740,22 @@
         "downloadPath": "./jobs/allegro-junior-data-engineer-data-tools-en.html"
       }
     }
+  },
+  {
+    "key": "dsv-junior-data-quality-analyst",
+    "versions": {
+      "pl": {
+        "title": "DSV: Junior Data Quality Analyst",
+        "description": "Jakość danych, walidacja, Excel, Power BI, SQL, analiza anomalii",
+        "path": "./jobs/dsv-junior-data-quality-analyst.html",
+        "downloadPath": "./jobs/dsv-junior-data-quality-analyst.html"
+      },
+      "en": {
+        "title": "DSV: Junior Data Quality Analyst",
+        "description": "Data quality, validation, Excel, Power BI, SQL and anomaly analysis",
+        "path": "./jobs/dsv-junior-data-quality-analyst-en.html",
+        "downloadPath": "./jobs/dsv-junior-data-quality-analyst-en.html"
+      }
+    }
   }
 ]
