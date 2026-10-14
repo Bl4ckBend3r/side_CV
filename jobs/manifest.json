@@ -757,5 +757,22 @@
         "downloadPath": "./jobs/dsv-junior-data-quality-analyst-en.html"
       }
     }
+  },
+  {
+    "key": "tylko-junior-data-engineer",
+    "versions": {
+      "pl": {
+        "title": "Tylko: Junior Data Engineer",
+        "description": "SQL, modelowanie danych, ETL, Python, API i jakość danych",
+        "path": "./jobs/tylko-junior-data-engineer.html",
+        "downloadPath": "./jobs/tylko-junior-data-engineer.html"
+      },
+      "en": {
+        "title": "Tylko: Junior Data Engineer",
+        "description": "SQL, data modelling, ETL, Python, APIs and data quality",
+        "path": "./jobs/tylko-junior-data-engineer-en.html",
+        "downloadPath": "./jobs/tylko-junior-data-engineer-en.html"
+      }
+    }
   }
 ]
