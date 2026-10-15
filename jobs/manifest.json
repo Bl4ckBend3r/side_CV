@@ -791,5 +791,22 @@
         "downloadPath": "./jobs/cloud-technologies-data-solutions-engineer-en.html"
       }
     }
+  },
+  {
+    "key": "remodevs-ai-video-creator",
+    "versions": {
+      "pl": {
+        "title": "RemoDevs: AI Video Creator",
+        "description": "AI, computer vision, Python, WSKZ analiza danych",
+        "path": "./jobs/remodevs-ai-video-creator.html",
+        "downloadPath": "./jobs/remodevs-ai-video-creator.html"
+      },
+      "en": {
+        "title": "RemoDevs: AI Video Creator",
+        "description": "AI, computer vision, Python, WSKZ Data Analytics",
+        "path": "./jobs/remodevs-ai-video-creator-en.html",
+        "downloadPath": "./jobs/remodevs-ai-video-creator-en.html"
+      }
+    }
   }
 ]
