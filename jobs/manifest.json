@@ -3,16 +3,16 @@
     "key": "ogolne",
     "versions": {
       "en": {
-        "title": "General",
-        "description": "General technical, IT and analytical profile",
+        "title": "General — Career Fair",
+        "description": "IT, Data/BI, Python, AI, automation and technical support · WSKZ 2026",
         "path": "./jobs/ogolne-en.html",
-        "downloadPath": "./downloads/Witold_Grzesiak_ogolne_EN.html"
+        "downloadPath": "./jobs/ogolne-en.html"
       },
       "pl": {
-        "title": "Ogólne",
-        "description": "CV ogólne — profil techniczny, IT i analityczny",
+        "title": "Ogólne — na targi pracy",
+        "description": "IT, Data/BI, Python, AI, automatyzacja i wsparcie techniczne · WSKZ 2026",
         "path": "./jobs/ogolne.html",
-        "downloadPath": "./downloads/Witold_Grzesiak_ogolne_PL.html"
+        "downloadPath": "./jobs/ogolne.html"
       }
     }
   },
