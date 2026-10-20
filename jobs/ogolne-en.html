@@ -1,261 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>General | Witold Grzesiak CV</title>
-    <meta name="cv-title" content="General">
-    <meta name="cv-slug" content="ogolne-en">
-    <meta name="cv-key" content="ogolne">
-    <meta name="cv-lang" content="en">
-    <meta name="cv-description" content="General technical, IT and analytical profile">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/cv.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>General — career fair | Witold Grzesiak CV</title>
+<meta name="description" content="Career fair CV: Data/BI, Python, automation, IT and technical support">
+<meta name="cv-title" content="General — career fair">
+<meta name="cv-slug" content="ogolne">
+<meta name="cv-key" content="ogolne">
+<meta name="cv-lang" content="en">
+<meta name="cv-description" content="Career fair CV: Data/BI, Python, automation, IT and technical support">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/cv.css">
+
+<style>
+/* Job-fair edition: compact A4, dedicated to this CV only */
+.cv-container { width:210mm; max-width:210mm; min-height:297mm; grid-template-columns:19.8% 80.2%; }
+.sidebar { padding:16px 10px; }
+.main-content { padding:17px 19px 12px 17px; }
+.profile-header { margin-bottom:13px; }
+.name { font-size:19pt; line-height:1.12; }
+.title { font-size:7.8pt; line-height:1.3; letter-spacing:.22px; }
+.sidebar-section { margin-bottom:11px; }
+.sidebar-title { font-size:8.4pt; margin-bottom:5px; letter-spacing:.55px; }
+.contact-item { margin-bottom:5px; overflow-wrap:anywhere; font-size:7.6pt; }
+.contact-label { font-size:6.8pt; }
+.contact-value,.contact-value a { font-size:7.5pt; overflow-wrap:anywhere; }
+.skill-group { margin-bottom:6px; }
+.skill-group-title { font-size:7.9pt; margin-bottom:3px; }
+.skill-tags { gap:3px; }
+.tag { font-size:7.2pt; padding:1px 4px; border-radius:3px; }
+.cert-item { margin-bottom:5px; }
+.cert-name { font-size:7.5pt; }
+.cert-meta { font-size:7.2pt; }
+.top-widgets { margin-bottom:13px; }
+.lang-btn,.download-btn { font-size:7pt; }
+.section { margin-bottom:11px; }
+.section-title { font-size:9pt; margin-bottom:6px; padding-bottom:3px; }
+.summary-text { font-size:8.4pt; text-align:left; line-height:1.36; }
+.experience-item,.education-item,.project-item { margin-bottom:7px; }
+.item-header { align-items:start; gap:6px; margin-bottom:2px; }
+.item-role { font-size:8.35pt; line-height:1.25; }
+.item-company { font-size:7.9pt; line-height:1.22; }
+.item-date { font-size:7.1pt; padding-top:1px; }
+.experience-bullets { padding-left:11px; margin-top:2px; font-size:7.9pt; line-height:1.34; }
+.experience-bullets li { margin-bottom:1px; }
+.project-desc { font-size:7.9pt; line-height:1.34; }
+.compact-line { margin:2px 0; font-size:7.8pt; line-height:1.36; }
+.rodo-footer { font-size:6.45pt; margin-top:8px; padding-top:5px; line-height:1.27; }
+.portfolio-link { color:var(--accent); font-weight:600; text-decoration:none; }
+.fair-note { font-size:7.25pt; color:var(--text-muted); line-height:1.32; }
+@media screen and (max-width:760px) {
+  .cv-container { display:block; width:100%; min-height:0; }
+  .sidebar { padding:20px; }
+  .main-content { padding:20px; }
+  .contact-value,.contact-value a { font-size:8.4pt; }
+}
+@media print {
+  html,body { width:210mm; height:297mm; margin:0; padding:0; }
+  body { font-size:8pt; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .cv-container { display:grid !important; grid-template-columns:19.8% 80.2%; width:210mm !important; max-width:none !important; min-height:297mm !important; height:297mm; margin:0 !important; box-shadow:none !important; break-after:avoid; }
+  .sidebar { padding:12px 9px; }
+  .main-content { padding:14px 17px 8px 14px; }
+  .top-widgets { display:none !important; }
+  .section { margin-bottom:9px; }
+  .experience-item,.education-item,.project-item { break-inside:avoid; page-break-inside:avoid; }
+  @page { size:A4; margin:0; }
+}
+</style>
 </head>
 <body>
-
-    <div class="cv-container">
-        <!-- SIDEBAR -->
-        <aside class="sidebar">
-            <div class="top-widgets">
-                <div class="lang-switch">
-                    <a href="../index.html#ogolne" target="_top" class="lang-btn">All CVs</a>
-                    <a href="ogolne.html" class="lang-btn">PL</a>
-                    <a href="ogolne-en.html" class="lang-btn active">EN</a>
-                </div>
-                <a href="../Witold_Grzesiak_EN.pdf" download class="download-btn">Download CV (PDF)</a>
-            </div>
-
-            <div class="profile-header">
-                <h1 class="name">Witold<br>Grzesiak</h1>
-                <div class="title">M.Sc. Engineer</div>
-            </div>
-
-            <section class="sidebar-section">
-                <h2 class="sidebar-title">Contact</h2>
-                <ul class="contact-list">
-                    <li class="contact-item">
-                        <span class="contact-label">Phone</span>
-                        <span class="contact-value"><a href="tel:+48531310527">+48 531 310 527</a></span>
-                    </li>
-                    <li class="contact-item">
-                        <span class="contact-label">E-mail</span>
-                        <span class="contact-value"><a href="mailto:witold.g83@gmail.com">witold.g83@gmail.com</a></span>
-                    </li>
-                    <li class="contact-item">
-                        <span class="contact-label">Location</span>
-                        <span class="contact-value">Zielona Gora, Poland</span>
-                    </li>
-                    <li class="contact-item">
-                        <span class="contact-label">GitHub</span>
-                        <span class="contact-value"><a href="https://github.com/Bl4ckBend3r" target="_blank">github.com/Bl4ckBend3r</a></span>
-                    </li>
-                    <li class="contact-item">
-                        <span class="contact-label">LinkedIn</span>
-                        <span class="contact-value"><a href="https://www.linkedin.com/in/witoldgrzesiak/" target="_blank">linkedin.com/in/witoldgrzesiak</a></span>
-                    </li>
-                </ul>
-            </section>
-
-            <section class="sidebar-section">
-                <h2 class="sidebar-title">Skills</h2>
-                <div class="skill-group">
-                    <div class="skill-group-title">Programming & Web</div>
-                    <div class="skill-tags">
-                        <span class="tag highlight">Python</span>
-                        <span class="tag highlight">R</span>
-                        <span class="tag">C++</span>
-                        <span class="tag">SQL</span>
-                        <span class="tag">HTML5/CSS3</span>
-                    </div>
-                </div>
-                <div class="skill-group">
-                    <div class="skill-group-title">Artificial Intelligence</div>
-                    <div class="skill-tags">
-                        <span class="tag highlight">AI Prompting</span>
-                        <span class="tag highlight">AI Implementation</span>
-                        <span class="tag highlight">Developing AI-based solutions</span>
-                    </div>
-                </div>
-                <div class="skill-group">
-                    <div class="skill-group-title">Data Analysis & BI</div>
-                    <div class="skill-tags">
-                        <span class="tag">Power BI</span>
-                        <span class="tag">Power Query</span>
-                        <span class="tag">Excel Macros</span>
-                        <span class="tag">KPIs</span>
-                    </div>
-                </div>
-                <div class="skill-group">
-                    <div class="skill-group-title">Tools & Systems</div>
-                    <div class="skill-tags">
-                        <span class="tag">Git / GitHub</span>
-                        <span class="tag">REST API</span>
-                        <span class="tag">Linux</span>
-                        <span class="tag">OpenProject</span>
-                        <span class="tag">Nextcloud</span>
-                    </div>
-                </div>
-            </section>
-
-            <section class="sidebar-section">
-                <h2 class="sidebar-title">Certifications</h2>
-                <ul class="cert-list">
-                    <li class="cert-item">
-                        <div class="cert-name">AI Implementation & Prompting</div>
-                        <div class="cert-meta">Google | May 2026</div>
-                    </li>
-                    <li class="cert-item">
-                        <div class="cert-name">Intermediate Python Programming</div>
-                        <div class="cert-meta">strefakursow.pl | Apr 2026</div>
-                    </li>
-                    <li class="cert-item">
-                        <div class="cert-name">Excel, Power Query, Power BI</div>
-                        <div class="cert-meta">iNauka.pl | Sep 2022</div>
-                    </li>
-                </ul>
-            </section>
-
-            <section class="sidebar-section">
-                <h2 class="sidebar-title">Languages</h2>
-                <div class="skill-group">
-                    <div class="skill-group-title">English</div>
-                    <div class="cert-meta">Upper-Intermediate / Advanced (B2/C1)</div>
-                </div>
-            </section>
-        </aside>
-
-        <!-- MAIN CONTENT -->
-        <main class="main-content">
-            <section class="section">
-                <h2 class="section-title">Professional Summary</h2>
-                <p class="summary-text">
-                    Master of Science in Computer Science (Information Systems Engineering) and Automation & Robotics Engineer. Experienced in software development, data analysis, and technical diagnostics. Certified skills in Python, AI implementation (Google AI), and BI tools (Power BI, Power Query). Proven track record in building utility applications, system integrations, remote technical support, and team leadership.
-                </p>
-            </section>
-
-            <section class="section">
-                <h2 class="section-title">Work History</h2>
-
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <span class="item-role">Administrative Assistant / Software Developer</span>
-                            <br><span class="item-company">Marshal's Office of the Lubuskie Voivodeship</span>
-                        </div>
-                        <span class="item-date">Nov 2025 – Present</span>
-                    </div>
-                    <ul class="experience-bullets">
-                        <li>Developing custom applications and automation scripts to streamline administrative workflows.</li>
-                        <li>Assisting in the integration and configuration of OpenProject and Nextcloud platforms.</li>
-                        <li>Conducting market research and web data analysis for project cost estimations.</li>
-                        <li>Evaluating website accessibility and readability guidelines (WCAG).</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <span class="item-role">Junior Remote Support Specialist</span>
-                            <br><span class="item-company">Ekoenergetyka - Service</span>
-                        </div>
-                        <span class="item-date">Aug 2023 – Dec 2024</span>
-                    </div>
-                    <ul class="experience-bullets">
-                        <li>Remote diagnostics, system log analysis, and troubleshooting of EV charging stations.</li>
-                        <li>Managing and executing remote firmware updates across station networks.</li>
-                        <li>Providing L2 technical support for clients, service partners, and field engineers.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <span class="item-role">Junior Field Service Specialist</span>
-                            <br><span class="item-company">Ekoenergetyka - Service</span>
-                        </div>
-                        <span class="item-date">Feb 2023 – Aug 2023</span>
-                    </div>
-                    <ul class="experience-bullets">
-                        <li>On-site repair and local diagnostics of high-power EV charging stations.</li>
-                        <li>Installation, commissioning, and periodic technical inspections of chargers.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <span class="item-role">Service Assistant</span>
-                            <br><span class="item-company">Ekoenergetyka - Service</span>
-                        </div>
-                        <span class="item-date">Jul 2022 – Feb 2023</span>
-                    </div>
-                    <ul class="experience-bullets">
-                        <li>Assisting with repairs, device installation, and technical inspections.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div>
-                            <span class="item-role">Hospitality Leader</span>
-                            <br><span class="item-company">McDonald's Restaurant</span>
-                        </div>
-                        <span class="item-date">Jun 2019 – May 2020</span>
-                    </div>
-                    <ul class="experience-bullets">
-                        <li>Supervising floor staff, managing customer service, and maintaining quality standards.</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="section">
-                <h2 class="section-title">Education</h2>
-                <div class="education-item">
-                    <div class="item-header">
-                        <div>
-                            <span class="item-role">M.Sc. in Computer Science</span>
-                            <br><span class="item-company">University of Zielona Gora</span> — Major: Information Systems Engineering
-                        </div>
-                        <span class="item-date">Feb 2023 – Jun 2025</span>
-                    </div>
-                </div>
-                <div class="education-item">
-                    <div class="item-header">
-                        <div>
-                            <span class="item-role">B.Sc. in Automation & Robotics</span>
-                            <br><span class="item-company">University of Zielona Gora</span> — Major: Industrial Automation
-                        </div>
-                        <span class="item-date">Oct 2019 – Feb 2023</span>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section">
-                <h2 class="section-title">Projects (GitHub)</h2>
-                <div class="project-item">
-                    <div class="item-header">
-                        <span class="item-role">Web Application – Pokedex</span>
-                        <span class="item-date">GitHub</span>
-                    </div>
-                    <p class="project-desc">Frontend application interacting with external REST API, featuring asynchronous data fetching.</p>
-                </div>
-                <div class="project-item">
-                    <div class="item-header">
-                        <span class="item-role">Quiz Application (JavaScript)</span>
-                        <span class="item-date">GitHub</span>
-                    </div>
-                    <p class="project-desc">Interactive quiz app developed in JS with answer logic and version control using Git feature branches.</p>
-                </div>
-            </section>
-
-            <div class="rodo-footer">
-                I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the Personal Data Protection Act and GDPR regulations.
-            </div>
-        </main>
-    </div>
-
-</body>
-</html>
+<div class="cv-container">
+<aside class="sidebar">
+<div class="top-widgets"><div class="lang-switch"><a href="../index.html#ogolne" target="_top" class="lang-btn">All CVs</a><a href="ogolne.html" class="lang-btn">PL</a></div><button type="button" class="download-btn" onclick="window.print()">Print / Save PDF</button></div>
+<div class="profile-header"><h1 class="name">Witold<br>Grzesiak</h1><div class="title">IT · DATA/BI · AUTOMATION</div></div>
+<section class="sidebar-section"><h2 class="sidebar-title">Contact</h2><ul class="contact-list">
+<li class="contact-item"><span class="contact-label">Phone</span><span class="contact-value"><a href="tel:+48531310527">+48 531 310 527</a></span></li>
+<li class="contact-item"><span class="contact-label">Email</span><span class="contact-value"><a href="mailto:witold.g83@gmail.com">witold.g83@gmail.com</a></span></li>
+<li class="contact-item"><span class="contact-label">Location</span><span class="contact-value">Zielona Góra · Poland</span><div class="fair-note">Open to remote/hybrid work and relocation</div></li>
+<li class="contact-item"><span class="contact-label">GitHub</span><span class="contact-value"><a href="https://github.com/Bl4ckBend3r" target="_blank" rel="noopener">github.com/Bl4ckBend3r</a></span></li>
+<li class="contact-item"><span class="contact-label">LinkedIn</span><span class="contact-value"><a href="https://www.linkedin.com/in/witoldgrzesiak/" target="_blank" rel="noopener">linkedin.com/in/witoldgrzesiak</a></span></li></ul></section>
+<section class="sidebar-section"><h2 class="sidebar-title">Key skills</h2><div class="skill-group"><div class="skill-group-title">Data &amp; Business Intelligence</div><div class="skill-tags"><span class="tag highlight">SQL</span><span class="tag highlight">Power BI</span><span class="tag">DAX</span><span class="tag">Power Query</span><span class="tag">Excel</span><span class="tag">Python</span></div></div><div class="skill-group"><div class="skill-group-title">Programming &amp; AI</div><div class="skill-tags"><span class="tag highlight">Python</span><span class="tag highlight">Pandas</span><span class="tag">REST APIs</span><span class="tag">JSON</span><span class="tag">TensorFlow</span><span class="tag">Computer Vision</span></div></div><div class="skill-group"><div class="skill-group-title">Systems &amp; troubleshooting</div><div class="skill-tags"><span class="tag highlight">Git / GitHub</span><span class="tag highlight">Linux</span><span class="tag">Nextcloud</span><span class="tag">OpenProject</span><span class="tag">TIA Portal (LAD)</span><span class="tag">Troubleshooting</span></div></div></section>
+<section class="sidebar-section"><h2 class="sidebar-title">Professional development</h2><ul class="cert-list"><li class="cert-item"><div class="cert-name">Data Analytics — Kajo Data</div><div class="cert-meta">course in progress · 2026</div></li><li class="cert-item"><div class="cert-name">AI Implementation &amp; Prompting</div><div class="cert-meta">Google · 2026</div></li><li class="cert-item"><div class="cert-name">Intermediate Python</div><div class="cert-meta">strefakursow.pl · 2026</div></li></ul></section>
+<section class="sidebar-section"><h2 class="sidebar-title">Additional information</h2><p class="compact-line">English — B2</p><p class="compact-line">Driving licence — category B</p><p class="compact-line">SEP G1 (D+E), up to 1 kV — valid to Mar 2028</p></section>
+</aside>
+<main class="main-content">
+<section class="section"><h2 class="section-title">Professional profile</h2><p class="summary-text">Computer Science MSc and Automation &amp; Robotics engineer, pursuing postgraduate studies in Data Analytics since October 2026. Combines Python, data analysis and automation skills with practical experience in system diagnostics, technical support and user-facing work. Currently developing expertise in Data/BI, AI solutions and IT process automation.</p></section>
+<section class="section"><h2 class="section-title">Education</h2><div class="education-item"><div class="item-header"><div><span class="item-role">Postgraduate studies — Data Analytics</span><div class="item-company">WSKZ (Higher School of Vocational Education)</div></div><span class="item-date">Oct 2026 – present</span></div></div><div class="education-item"><div class="item-header"><div><span class="item-role">MSc in Computer Science</span><div class="item-company">University of Zielona Góra · Information Systems Engineering</div></div><span class="item-date">2023 – 2025</span></div></div><div class="education-item"><div class="item-header"><div><span class="item-role">BEng in Automation &amp; Robotics</span><div class="item-company">University of Zielona Góra · Industrial Automation</div></div><span class="item-date">2019 – 2023</span></div></div></section>
+<section class="section"><h2 class="section-title">Professional experience</h2><div class="experience-item"><div class="item-header"><div><span class="item-role">Administrative Assistant</span><div class="item-company">Marshal’s Office of the Lubuskie Voivodeship</div></div><span class="item-date">Nov 2025 – present</span></div><ul class="experience-bullets"><li>Developing scripts and applications to streamline data, information handling and repetitive workflows.</li><li>Supporting Nextcloud and OpenProject integrations, assessing user needs and preparing project documentation.</li></ul></div><div class="experience-item"><div class="item-header"><div><span class="item-role">Junior Remote Technical Support Specialist</span><div class="item-company">Ekoenergetyka-Service</div></div><span class="item-date">Aug 2023 – Dec 2024</span></div><ul class="experience-bullets"><li>Analysing logs, network communication and EV charger parameters to diagnose and resolve technical issues.</li><li>Performing remote firmware updates and supporting customers, service teams and engineers.</li></ul></div><div class="experience-item"><div class="item-header"><div><span class="item-role">Junior Field Service Specialist</span><div class="item-company">Ekoenergetyka-Service</div></div><span class="item-date">Feb 2023 – Aug 2023</span></div><ul class="experience-bullets"><li>On-site diagnostics, repairs, installation, commissioning and technical inspections of equipment.</li></ul></div><div class="experience-item"><div class="item-header"><div><span class="item-role">Service Assistant</span><div class="item-company">Ekoenergetyka-Service</div></div><span class="item-date">Jul 2022 – Feb 2023</span></div><ul class="experience-bullets"><li>Assisting with device installation, repairs and technical inspections.</li></ul></div><div class="experience-item"><div class="item-header"><div><span class="item-role">Hospitality Leader</span><div class="item-company">FMD Jadwiga Wieczorek — McDonald’s</div></div><span class="item-date">Jun 2019 – May 2020</span></div><ul class="experience-bullets"><li>Coordinating day-to-day tasks, serving customers and maintaining quality standards.</li></ul></div></section>
+<section class="section"><h2 class="section-title">Selected projects</h2><div class="project-item"><div class="item-header"><span class="item-role">Retail BI Dashboard</span><span class="item-date">SQL · Power BI · DAX</span></div><p class="project-desc">Star-schema model, data transformation, KPI metrics and interactive sales reporting. <a class="portfolio-link" href="https://github.com/Bl4ckBend3r/bi-portfolio/tree/main/projects/retail-bi-dashboard" target="_blank" rel="noopener">GitHub ↗</a></p></div><div class="project-item"><div class="item-header"><span class="item-role">Ki-67 — deep learning image analysis</span><span class="item-date">Python · TensorFlow · U-Net / SUNet</span></div><p class="project-desc">MSc thesis: cell nuclei segmentation, IHC image analysis and evaluation of model performance. <a class="portfolio-link" href="https://github.com/Bl4ckBend3r" target="_blank" rel="noopener">GitHub ↗</a></p></div><div class="project-item"><div class="item-header"><span class="item-role">Incremental ETL &amp; Data Warehouse</span><span class="item-date">SQL · Python · ETL</span></div><p class="project-desc">Incremental loading, SCD Type 2, data validation and audit logging. <a class="portfolio-link" href="https://github.com/Bl4ckBend3r/bi-portfolio/tree/main/projects/etl-data-warehouse" target="_blank" rel="noopener">GitHub ↗</a></p></div></section>
+<div class="rodo-footer">I consent to the processing of my personal data for current and future recruitment purposes in accordance with GDPR (EU Regulation 2016/679).</div>
+</main></div>
+</body></html>
