@@ -12,7 +12,8 @@ OUTPUTS = [
 
 def main():
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(headless=True)
+        chrome_binary = shutil.which("google-chrome")
+        browser = pw.chromium.launch(headless=True, executable_path=chrome_binary) if chrome_binary else pw.chromium.launch(headless=True)
         try:
             for source, output in OUTPUTS:
                 page = browser.new_page(locale="pl-PL" if "pl" in source.stem else "en-GB")
