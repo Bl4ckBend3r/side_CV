@@ -31,15 +31,12 @@ jobs:
           python-version: '3.12'
       - name: Install PDF renderer
         run: |
-          python -m pip install playwright==1.58.0
+          python -m pip install playwright==1.58.0 pypdf pdfminer.six
           python -m playwright install --with-deps chromium
       - name: Render updated PDFs
         run: python scripts/export_general_cv_pdfs.py
-      - name: Check PDF files
-        run: |
-          test -s Witold_Grzesiak.pdf
-          test -s Witold_Grzesiak_PL.pdf
-          test -s Witold_Grzesiak_EN.pdf
+      - name: Verify PDFs are readable like ATS submissions
+        run: python scripts/validate_general_cv_pdfs.py
       - name: Commit refreshed PDFs
         run: |
           git config user.name "github-actions[bot]"
