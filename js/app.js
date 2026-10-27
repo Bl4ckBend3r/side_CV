@@ -22,6 +22,8 @@ function showProfile(profile, button, updateUrl = true) {
   download.href = cv.downloadPath;
   download.download = `Witold_Grzesiak_${profile.key}_${selectedLang.toUpperCase()}.html`;
   open.href = cv.path;
+  const atsLink = document.querySelector('#ats-cv');
+  if (atsLink) atsLink.href = cv.atsPath || `./ats/${profile.key}-${selectedLang}.html`;
   if (updateUrl) history.replaceState(null, '', `#${profile.key}`);
 }
 

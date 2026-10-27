@@ -29,7 +29,8 @@ for (const file of files) {
     title: getMeta(html, 'cv-title') || key.replaceAll('-', ' '),
     description: getMeta(html, 'cv-description') || 'Professional profile',
     path: `./jobs/${file}`,
-    downloadPath: `./downloads/${filename}`
+    downloadPath: `./downloads/${filename}`,
+    atsPath: `./ats/${key}-${lang}.html`
   };
   grouped.set(key, profile);
 }

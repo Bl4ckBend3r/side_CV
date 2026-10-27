@@ -1,174 +1,94 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Associate Data Operations Specialist | CV Witolda Grzesiaka</title>
-    <meta name="cv-title" content="Associate Data Operations Specialist">
-    <meta name="cv-slug" content="associate-data-operations-specialist">
-    <meta name="cv-key" content="associate-data-operations-specialist">
-    <meta name="cv-lang" content="pl">
-    <meta name="cv-description" content="CV pod Associate Data Operations Specialist: SQL, Power BI, ETL, Linux, troubleshooting i Data Operations">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/cv.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DATA OPERATIONS · IT SUPPORT · ETL | Witold Grzesiak</title>
+<meta name="description" content="Rozszerzone CV: analiza danych, BI, Python, automatyzacja, AI, IT Support i systemy techniczne">
+<meta name="cv-title" content="DATA OPERATIONS · IT SUPPORT · ETL">
+<meta name="cv-slug" content="associate-data-operations-specialist">
+<meta name="cv-key" content="associate-data-operations-specialist">
+<meta name="cv-lang" content="pl">
+<meta name="cv-description" content="Magister informatyki z doświadczeniem w analizie logów, diagnostyce komunikacji sieciowej, utrzymaniu urządzeń i wsparciu uży">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/cv.css">
+<style>
+/* Career fair edition: readable, print-friendly and limited to this CV */
+.cv-container{width:210mm;max-width:210mm;min-height:297mm;grid-template-columns:19.5% 80.5%}
+.sidebar{padding:16px 10px}
+.main-content{padding:17px 18px 15px 17px}
+.profile-header{margin-bottom:13px}
+.name{font-size:19pt;line-height:1.12}
+.title{font-size:7.6pt;line-height:1.32;letter-spacing:.15px}
+.sidebar-section{margin-bottom:12px}
+.sidebar-title{font-size:8.3pt;margin-bottom:6px;letter-spacing:.4px}
+.contact-item{margin-bottom:6px;font-size:7.6pt;overflow-wrap:anywhere}
+.contact-label{font-size:6.7pt}
+.contact-value,.contact-value a{font-size:7.4pt;overflow-wrap:anywhere}
+.skill-group{margin-bottom:7px}
+.skill-group-title{font-size:7.8pt;margin-bottom:3px}
+.skill-tags{gap:3px}
+.tag{font-size:7pt;padding:1px 4px;border-radius:3px}
+.cert-item{margin-bottom:6px}
+.cert-name{font-size:7.6pt}
+.cert-meta{font-size:7.1pt}
+.top-widgets{margin-bottom:13px}
+.lang-btn,.download-btn{font-size:7pt}
+.section{margin-bottom:11px}
+.section-title{font-size:9pt;margin-bottom:6px;padding-bottom:3px}
+.summary-text{font-size:8.3pt;text-align:left;line-height:1.37}
+.experience-item,.education-item,.project-item{margin-bottom:7px}
+.item-header{align-items:start;gap:6px;margin-bottom:2px}
+.item-role{font-size:8.4pt;line-height:1.25}
+.item-company{font-size:7.9pt;line-height:1.23}
+.item-date{font-size:7.1pt;padding-top:1px;text-align:right}
+.experience-bullets{padding-left:12px;margin-top:3px;font-size:7.85pt;line-height:1.38}
+.experience-bullets li{margin-bottom:2px}
+.project-desc{font-size:7.9pt;line-height:1.38}
+.compact-line{margin:3px 0;font-size:7.6pt;line-height:1.35}
+.rodo-footer{font-size:6.55pt;margin-top:11px;padding-top:6px;line-height:1.28}
+.portfolio-link{color:var(--accent);font-weight:600;text-decoration:none}
+.fair-note{font-size:7.2pt;color:var(--text-muted);line-height:1.32;margin-top:2px}
+.highlights{margin-top:6px;font-size:8pt;line-height:1.38}
+.highlights strong{color:var(--primary)}
+.highlights ul{margin-top:3px;padding-left:14px}
+.highlights li{margin-bottom:2px}
+@media screen and (max-width:760px){
+ .cv-container{display:block;width:100%;min-height:0}
+ .sidebar{padding:20px}
+ .main-content{padding:20px}
+ .contact-value,.contact-value a{font-size:8.4pt}
+}
+@media print{
+ body{font-size:8pt;background:none;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ html,body{width:210mm;margin:0;padding:0}
+ .cv-container{display:grid!important;grid-template-columns:19.5% 80.5%;width:210mm!important;max-width:none!important;min-height:297mm;margin:0!important;box-shadow:none!important;height:auto!important}
+ .sidebar{padding:12px 9px}
+ .main-content{padding:13px 17px 12px 14px}
+ .top-widgets{display:none!important}
+ .section{margin-bottom:9px}
+ .experience-item,.education-item,.project-item{break-inside:avoid;page-break-inside:avoid}
+ @page{size:A4;margin:0}
+}
+@media print{.cv-container{grid-template-columns:25% 75%;height:auto;min-height:0}.main-content{padding:9px 11px}.sidebar{padding:9px 7px}.project-desc,.experience-bullets{font-size:8.7pt}.project-item{break-inside:avoid}}@media screen{.project-desc{font-size:8.7pt;line-height:1.46}.experience-bullets{font-size:8.6pt;line-height:1.45}.project-item{margin-bottom:11px}.summary-text{font-size:9pt}.sidebar-title{font-size:8.3pt}}</style>
 </head>
 <body>
 <div class="cv-container">
-    <aside class="sidebar">
-        <div class="top-widgets">
-            <div class="lang-switch">
-                <a href="../index.html#associate-data-operations-specialist" target="_top" class="lang-btn">Wszystkie CV</a>
-                <a href="associate-data-operations-specialist-en.html" class="lang-btn">EN</a>
-            </div>
-            <button type="button" class="download-btn" onclick="window.print()">Zapisz jako PDF</button>
-        </div>
-
-        <div class="profile-header">
-            <h1 class="name">Witold<br>Grzesiak</h1>
-            <div class="title">Associate Data Operations Specialist</div>
-        </div>
-
-        <section class="sidebar-section">
-            <h2 class="sidebar-title">Kontakt</h2>
-            <ul class="contact-list">
-                <li class="contact-item"><span class="contact-label">Telefon</span><span class="contact-value"><a href="tel:+48531310527">+48 531 310 527</a></span></li>
-                <li class="contact-item"><span class="contact-label">E-mail</span><span class="contact-value"><a href="mailto:witold.g83@gmail.com">witold.g83@gmail.com</a></span></li>
-                <li class="contact-item"><span class="contact-label">Lokalizacja</span><span class="contact-value">Zielona Góra, Polska</span></li>
-                <li class="contact-item"><span class="contact-label">GitHub</span><span class="contact-value"><a href="https://github.com/Bl4ckBend3r" target="_blank">github.com/Bl4ckBend3r</a></span></li>
-                <li class="contact-item"><span class="contact-label">LinkedIn</span><span class="contact-value"><a href="https://www.linkedin.com/in/witoldgrzesiak/" target="_blank">linkedin.com/in/witoldgrzesiak</a></span></li>
-            </ul>
-        </section>
-
-        <section class="sidebar-section">
-            <h2 class="sidebar-title">Umiejętności</h2>
-            <div class="skill-group">
-                <div class="skill-group-title">Data & BI</div>
-                <div class="skill-tags">
-                    <span class="tag highlight">SQL</span>
-                    <span class="tag highlight">Power BI</span>
-                    <span class="tag highlight">Power Query</span>
-                    <span class="tag">ETL</span>
-                    <span class="tag">DAX — portfolio</span>
-                    <span class="tag">Modelowanie danych</span>
-                    <span class="tag">Jakość danych</span>
-                </div>
-            </div>
-            <div class="skill-group">
-                <div class="skill-group-title">Operations & Systems</div>
-                <div class="skill-tags">
-                    <span class="tag highlight">Linux</span>
-                    <span class="tag highlight">Troubleshooting</span>
-                    <span class="tag">Analiza logów</span>
-                    <span class="tag">Incydenty</span>
-                    <span class="tag">Monitoring</span>
-                    <span class="tag">REST API</span>
-                    <span class="tag">Git / GitHub</span>
-                </div>
-            </div>
-            <div class="skill-group">
-                <div class="skill-group-title">Programowanie</div>
-                <div class="skill-tags">
-                    <span class="tag highlight">Python</span>
-                    <span class="tag">Pandas</span>
-                    <span class="tag">NumPy</span>
-                    <span class="tag">Automatyzacja</span>
-                </div>
-            </div>
-        </section>
-
-        <section class="sidebar-section">
-            <h2 class="sidebar-title">Rozwój</h2>
-            <div class="skill-group"><div class="cert-meta">Microsoft Azure · Azure Data Factory · Databricks · SQL Server · Synapse Analytics</div></div>
-        </section>
-
-        <section class="sidebar-section">
-            <h2 class="sidebar-title">Certyfikaty</h2>
-            <ul class="cert-list">
-                <li class="cert-item"><div class="cert-name">Excel, Power Query, Power BI</div><div class="cert-meta">iNauka.pl | wrz 2022</div></li>
-                <li class="cert-item"><div class="cert-name">Python Średniozaawansowany</div><div class="cert-meta">strefakursow.pl | kwi 2026</div></li>
-                <li class="cert-item"><div class="cert-name">Wdrażanie AI & Prompting</div><div class="cert-meta">Google | maj 2026</div></li>
-            </ul>
-        </section>
-
-        <section class="sidebar-section">
-            <h2 class="sidebar-title">Języki</h2>
-            <div class="skill-group"><div class="skill-group-title">Angielski</div><div class="cert-meta">B2/C1 — komunikacja techniczna</div></div>
-        </section>
-    </aside>
-
-    <main class="main-content">
-        <section class="section">
-            <h2 class="section-title">Profil Zawodowy</h2>
-            <p class="summary-text">
-                Magister informatyki i inżynier automatyki i robotyki z doświadczeniem w utrzymaniu, diagnostyce i analizie systemów produkcyjnych oraz rozwijaniu rozwiązań z obszaru danych i automatyzacji. Pracuję z SQL, Power BI, Power Query, Pythonem i Linuxem. W poprzednich rolach analizowałem logi i dane diagnostyczne, obsługiwałem incydenty oraz wspierałem przywracanie poprawnego działania systemów. Rozwijam się w kierunku Data Operations i Data Engineering, szczególnie w ekosystemie Microsoft Azure.
-            </p>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title">Historia Zatrudnienia</h2>
-
-            <div class="experience-item">
-                <div class="item-header"><div><span class="item-role">Pomoc Administracyjna / Developer Narzędziowy</span><br><span class="item-company">Urząd Marszałkowski Województwa Lubuskiego</span></div><span class="item-date">11.2025 – obecnie</span></div>
-                <ul class="experience-bullets">
-                    <li>Tworzenie aplikacji i skryptów automatyzujących powtarzalne procesy oraz pracę użytkowników.</li>
-                    <li>Praca z danymi i informacjami pochodzącymi z różnych źródeł oraz przygotowywanie ich do dalszego wykorzystania.</li>
-                    <li>Wsparcie integracji i konfiguracji platform OpenProject oraz Nextcloud.</li>
-                    <li>Diagnozowanie problemów technicznych, analiza potrzeb użytkowników i przekładanie ich na usprawnienia systemowe.</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="item-header"><div><span class="item-role">Młodszy Specjalista ds. Zdalnego Wsparcia Serwisowego</span><br><span class="item-company">Ekoenergetyka - Service</span></div><span class="item-date">08.2023 – 12.2024</span></div>
-                <ul class="experience-bullets">
-                    <li>Analiza logów systemowych, danych diagnostycznych i komunikacji sieciowej w celu identyfikacji źródeł awarii.</li>
-                    <li>Zdalna diagnostyka i rozwiązywanie incydentów w systemach pracujących w środowisku produkcyjnym.</li>
-                    <li>Praca w środowisku Linux i z narzędziami CLI podczas diagnostyki oraz aktualizacji oprogramowania.</li>
-                    <li>Weryfikacja poprawności działania urządzeń i usług po wykonanych zmianach oraz aktualizacjach.</li>
-                    <li>Wsparcie techniczne L2 dla klientów, partnerów serwisowych oraz inżynierów terenowych.</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="item-header"><div><span class="item-role">Młodszy Specjalista ds. Serwisu Interwencyjnego</span><br><span class="item-company">Ekoenergetyka - Service</span></div><span class="item-date">02.2023 – 08.2023</span></div>
-                <ul class="experience-bullets">
-                    <li>Diagnostyka lokalna oraz analiza przyczyn awarii stacji ładowania pojazdów elektrycznych.</li>
-                    <li>Instalacja, uruchamianie i kontrola urządzeń oraz ich parametrów technicznych.</li>
-                    <li>Testy funkcjonalne po naprawach i zmianach konfiguracyjnych.</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="item-header"><div><span class="item-role">Asystent Serwisanta</span><br><span class="item-company">Ekoenergetyka - Service</span></div><span class="item-date">07.2022 – 02.2023</span></div>
-                <ul class="experience-bullets"><li>Wsparcie diagnostyki, instalacji, napraw oraz przeglądów urządzeń technicznych.</li></ul>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title">Projekty Data / BI</h2>
-            <div class="project-item">
-                <div class="item-header"><span class="item-role">Incremental ETL & Data Warehouse</span><span class="item-date">ETL · SQL · Python · ADF blueprint</span></div>
-                <p class="project-desc">Pipeline ETL z incremental load, watermark, SCD Type 2, kontrolą jakości danych i audit logiem. Repo zawiera działającą lokalną implementację oraz mapowanie procesu na architekturę Azure Data Factory i SQL Server. <a href="https://github.com/Bl4ckBend3r/bi-portfolio/tree/main/projects/etl-data-warehouse" target="_blank">GitHub</a></p>
-            </div>
-            <div class="project-item">
-                <div class="item-header"><span class="item-role">Retail Sales BI Dashboard</span><span class="item-date">Power BI · SQL · DAX · Python</span></div>
-                <p class="project-desc">Projekt end-to-end dla danych sprzedażowych: generator danych w Pythonie, model gwiazdy w MS SQL Server, warstwa raportowa Power BI oraz miary DAX obejmujące Revenue, Gross Margin, AOV, YTD i YoY. <a href="https://github.com/Bl4ckBend3r/bi-portfolio/tree/main/projects/retail-bi-dashboard" target="_blank">GitHub</a></p>
-            </div>
-            <div class="project-item">
-                <div class="item-header"><span class="item-role">Segmentacja i analiza obrazów Ki-67</span><span class="item-date">Python · TensorFlow · OpenCV</span></div>
-                <p class="project-desc">Pipeline przetwarzania i analizy danych obrazowych obejmujący przygotowanie danych, trening modeli, agregację wyników oraz metryki IoU, precision, recall, F1, ROC i PR.</p>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title">Edukacja</h2>
-            <div class="education-item"><div class="item-header"><div><span class="item-role">Magister Informatyki</span><br><span class="item-company">Uniwersytet Zielonogórski</span> — Inżynieria Systemów Informatycznych</div><span class="item-date">02.2023 – 06.2025</span></div></div>
-            <div class="education-item"><div class="item-header"><div><span class="item-role">Inżynier Automatyki i Robotyki</span><br><span class="item-company">Uniwersytet Zielonogórski</span> — Automatyka Przemysłowa</div><span class="item-date">10.2019 – 02.2023</span></div></div>
-        </section>
-
-        <div class="rodo-footer" lang="pl">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).</div>
-    </main>
-</div>
+<aside class="sidebar">
+<div class="top-widgets"><div class="lang-switch"><a href="../index.html#associate-data-operations-specialist" target="_top" class="lang-btn">Wszystkie CV</a><a href="associate-data-operations-specialist-en.html" class="lang-btn">EN</a></div><a class="download-btn" href="../ats/associate-data-operations-specialist-pl.html">Wersja ATS / PDF</a></div>
+<div class="profile-header"><h1 class="name">Witold<br>Grzesiak</h1><div class="title">DATA OPERATIONS · IT SUPPORT · ETL</div></div>
+<section class="sidebar-section"><h2 class="sidebar-title">Kontakt</h2><ul class="contact-list">
+<li class="contact-item"><span class="contact-label">Telefon</span><span class="contact-value"><a href="tel:+48531310527">+48 531 310 527</a></span></li>
+<li class="contact-item"><span class="contact-label">E-mail</span><span class="contact-value"><a href="mailto:witold.g83@gmail.com">witold.g83@gmail.com</a></span></li>
+<li class="contact-item"><span class="contact-label">Lokalizacja</span><span class="contact-value">Zielona Góra, Polska</span><div class="fair-note">Otwartość na pracę zdalną, hybrydową i relokację</div></li>
+<li class="contact-item"><span class="contact-label">GitHub</span><span class="contact-value"><a href="https://github.com/Bl4ckBend3r" target="_blank" rel="noopener">github.com/Bl4ckBend3r</a></span></li>
+<li class="contact-item"><span class="contact-label">LinkedIn</span><span class="contact-value"><a href="https://www.linkedin.com/in/witoldgrzesiak/" target="_blank" rel="noopener">linkedin.com/in/witoldgrzesiak</a></span></li></ul></section>
+<section class="sidebar-section"><h2 class="sidebar-title">Kluczowe kompetencje</h2><div class="skill-group"><div class="skill-group-title">Analiza danych i BI</div><div class="skill-tags"><span class="tag highlight">SQL</span><span class="tag highlight">Power BI</span><span class="tag">DAX</span><span class="tag">Power Query</span><span class="tag">Excel</span><span class="tag">Modelowanie danych</span><span class="tag">ETL</span><span class="tag">KPI</span></div></div><div class="skill-group"><div class="skill-group-title">Programowanie</div><div class="skill-tags"><span class="tag highlight">Python</span><span class="tag highlight">Pandas</span><span class="tag">NumPy</span><span class="tag">REST API</span><span class="tag">JSON</span><span class="tag">Git / GitHub</span><span class="tag">HTML / CSS</span></div></div><div class="skill-group"><div class="skill-group-title">AI i uczenie maszynowe</div><div class="skill-tags"><span class="tag highlight">TensorFlow</span><span class="tag highlight">U-Net / SUNet</span><span class="tag">Computer Vision</span><span class="tag">LLM / RAG</span><span class="tag">Prompt Engineering</span></div></div><div class="skill-group"><div class="skill-group-title">Systemy i automatyka</div><div class="skill-tags"><span class="tag highlight">Linux</span><span class="tag highlight">PostgreSQL</span><span class="tag">Nextcloud</span><span class="tag">OpenProject</span><span class="tag">Diagnostyka L2</span><span class="tag">TIA Portal (LAD)</span></div></div></section>
+<section class="sidebar-section"><h2 class="sidebar-title">Kompetencje interpersonalne</h2><p class="compact-line">Komunikacja z klientami i użytkownikami</p><p class="compact-line">Współpraca z inżynierami</p><p class="compact-line">Rozwiązywanie problemów</p><p class="compact-line">Koordynacja zadań</p></section><section class="sidebar-section"><h2 class="sidebar-title">Kursy i certyfikaty</h2><ul class="cert-list"><li class="cert-item"><div class="cert-name">Analiza danych — Kajo Data</div><div class="cert-meta">2026 · kurs w trakcie (SQL)</div></li><li class="cert-item"><div class="cert-name">Wdrażanie AI i prompting</div><div class="cert-meta">Google · 2026</div></li><li class="cert-item"><div class="cert-name">Python średniozaawansowany</div><div class="cert-meta">strefakursow.pl · 2026</div></li><li class="cert-item"><div class="cert-name">Excel, Power Query, Power BI</div><div class="cert-meta">iNauka.pl · 2022</div></li></ul></section>
+<section class="sidebar-section"><h2 class="sidebar-title">Języki i uprawnienia</h2><p class="compact-line">Angielski — B2 (komunikacja techniczna)</p><p class="compact-line">Prawo jazdy kat. B</p><p class="compact-line">SEP G1 (D+E), do 1 kV — do 03.2028</p></section>
+</aside>
+<main class="main-content"><section class="section"><h2 class="section-title">Profil zawodowy</h2><p class="summary-text">Magister informatyki z doświadczeniem w analizie logów, diagnostyce komunikacji sieciowej, utrzymaniu urządzeń i wsparciu użytkowników. W projektach rozwijam ETL, walidację danych, audyt oraz automatyzację w Pythonie. Potrafię współpracować z inżynierami przy ustalaniu przyczyn incydentów i przekazywać klientom kolejne kroki.</p></section><section class="section"><h2 class="section-title">Kompetencje techniczne</h2><p class="summary-text">SQL/SQLite · walidacja · ETL · audit log · Python · API/JSON · Nextcloud · Linux · analiza logów · diagnostyka L2</p></section><section class="section"><h2 class="section-title">Doświadczenie zawodowe</h2><div class="experience-item"><div class="item-header"><div><span class="item-role">Pomoc Administracyjna</span><div class="item-company">Urząd Marszałkowski Województwa Lubuskiego</div></div><span class="item-date">11.2025 – obecnie</span></div><ul class="experience-bullets"><li>Analiza potrzeb użytkowników oraz przygotowywanie skryptów Python i aplikacji usprawniających pracę z danymi i dokumentami.</li><li>Wsparcie konfiguracji i integracji Nextcloud, OpenProject i API/JSON; testowanie narzędzi oraz diagnozowanie zgłoszonych problemów.</li><li>Przygotowywanie zestawień, analiz, dokumentacji i materiałów zakupowych; wyjaśnianie ustaleń odbiorcom technicznym i nietechnicznym.</li></ul></div><div class="experience-item"><div class="item-header"><div><span class="item-role">Młodszy Specjalista ds. Zdalnego Wsparcia Serwisowego</span><div class="item-company">Ekoenergetyka-Service</div></div><span class="item-date">08.2023 – 12.2024</span></div><ul class="experience-bullets"><li>Diagnozowanie incydentów stacji ładowania EV na podstawie logów, parametrów urządzeń i komunikacji sieciowej.</li><li>Identyfikowanie możliwych przyczyn usterek i współpraca z inżynierami oraz serwisem terenowym przy działaniach naprawczych.</li><li>Aktualizacje firmware, zmiany konfiguracji i weryfikacja działania urządzeń po interwencjach.</li><li>Obsługa klientów i partnerów serwisowych na poziomie L2: przekazywanie statusów, wyników diagnostyki i dalszych kroków.</li></ul></div><div class="experience-item"><div class="item-header"><div><span class="item-role">Młodszy Specjalista ds. Serwisu Interwencyjnego</span><div class="item-company">Ekoenergetyka-Service</div></div><span class="item-date">02.2023 – 08.2023</span></div><ul class="experience-bullets"><li>Diagnostyka usterek w terenie, analiza parametrów i testy funkcjonalne po naprawach.</li><li>Współpraca przy instalacjach, uruchomieniach i okresowych przeglądach stacji ładowania.</li></ul></div><div class="experience-item"><div class="item-header"><div><span class="item-role">Asystent Serwisanta</span><div class="item-company">Ekoenergetyka-Service</div></div><span class="item-date">07.2022 – 02.2023</span></div><ul class="experience-bullets"><li>Wsparcie zespołu w instalacji, diagnostyce, naprawach i przeglądach urządzeń.</li></ul></div><div class="experience-item"><div class="item-header"><div><span class="item-role">Lider Gościnności</span><div class="item-company">FMD Jadwiga Wieczorek · McDonald’s</div></div><span class="item-date">06.2019 – 05.2020</span></div><ul class="experience-bullets"><li>Koordynowanie zadań zespołu, komunikacja z klientami i reagowanie na problemy operacyjne.</li></ul></div></section><section class="section"><h2 class="section-title">Projekty i rezultaty</h2><div class="project-item"><div class="item-header"><div><span class="item-role">Incremental ETL &amp; Data Warehouse</span></div><span class="item-date">Python · SQL/SQLite · ETL</span></div><p class="project-desc">Problem: przyrostowe ładowanie danych bez duplikatów i utraty historii klientów. Wkład: lokalny ETL z watermarkingiem, SCD Type 2, walidacją, rejestrem audytu i testami powtarzalności uruchomień. SQL Server i Azure Data Factory to dokumentacja architektury docelowej. <a class="portfolio-link" href="https://github.com/Bl4ckBend3r/bi-portfolio/tree/main/projects/etl-data-warehouse" target="_blank" rel="noopener">Kod i dokumentacja ↗</a></p></div><div class="project-item"><div class="item-header"><div><span class="item-role">Platforma dynamicznych formularzy i obiegu dokumentów</span></div><span class="item-date">Python · Flask · Nextcloud · JSON · PDF</span></div><p class="project-desc">Problem: ręczny obieg zgłoszeń i dokumentów. Wkład: dynamiczne formularze z JSON, walidacja i zapis zgłoszeń, generowanie PDF, reguły obiegu deklaracji i umów, weryfikacja wgranych podpisanych plików, tokeny dostępu, powiadomienia i audyt. Architektura routes/services/repositories i testy pytest. <a class="portfolio-link" href="https://github.com/Bl4ckBend3r/dynamic-qualified-signature-form" target="_blank" rel="noopener">Kod i dokumentacja ↗</a></p></div><div class="project-item"><div class="item-header"><div><span class="item-role">Retail Sales BI Dashboard</span></div><span class="item-date">Python · SQL/SQLite · HTML/JavaScript</span></div><p class="project-desc">Problem: trudna analiza marży i przychodów w danych transakcyjnych. Wkład: wygenerowanie 12 000 syntetycznych zamówień, model gwiazdy, weryfikacja KPI i interaktywny raport HTML działający offline. DAX oraz SQL Server są opisane jako rozszerzenie, bez gotowego pliku .pbix. <a class="portfolio-link" href="https://github.com/Bl4ckBend3r/bi-portfolio/tree/main/projects/retail-bi-dashboard" target="_blank" rel="noopener">Kod i dokumentacja ↗</a></p></div></section><section class="section"><h2 class="section-title">Wykształcenie</h2><div class="education-item"><div class="item-header"><div><span class="item-role">Studia podyplomowe — Analiza danych</span><div class="item-company">WSKZ · Wyższa Szkoła Kształcenia Zawodowego</div></div><span class="item-date">10.2026 – obecnie</span></div></div><div class="education-item"><div class="item-header"><div><span class="item-role">Informatyka — magister inżynier</span><div class="item-company">Uniwersytet Zielonogórski · Inżynieria Systemów Informatycznych</div></div><span class="item-date">02.2023 – 06.2025</span></div></div><div class="education-item"><div class="item-header"><div><span class="item-role">Automatyka i robotyka — inżynier</span><div class="item-company">Uniwersytet Zielonogórski · Automatyka Przemysłowa</div></div><span class="item-date">10.2019 – 02.2023</span></div></div></section><div class="rodo-footer">Wyrażam zgodę na przetwarzanie moich danych osobowych na potrzeby obecnych i przyszłych procesów rekrutacyjnych zgodnie z rozporządzeniem (UE) 2016/679 (RODO).</div></main></div>
 </body>
 </html>

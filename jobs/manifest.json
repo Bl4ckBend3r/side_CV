@@ -2,153 +2,171 @@
   {
     "key": "ogolne",
     "versions": {
-      "en": {
-        "title": "General — Career Fair",
-        "description": "IT, Data/BI, Python, AI, automation and technical support · WSKZ 2026",
-        "path": "./jobs/ogolne-en.html",
-        "downloadPath": "./jobs/ogolne-en.html"
-      },
       "pl": {
-        "title": "Ogólne — na targi pracy",
-        "description": "IT, Data/BI, Python, AI, automatyzacja i wsparcie techniczne · WSKZ 2026",
+        "title": "INFORMATYKA · DATA/BI · AUTOMATYZACJA",
+        "description": "Magister informatyki i inżynier automatyki, od października 2026 na studiach podyplomowych z analizy danych (WSKZ). Łączę dia",
         "path": "./jobs/ogolne.html",
-        "downloadPath": "./jobs/ogolne.html"
+        "downloadPath": "./downloads/Witold_Grzesiak_ogolne_PL.html",
+        "atsPath": "./ats/ogolne-pl.html"
+      },
+      "en": {
+        "title": "COMPUTER SCIENCE · DATA/BI · AUTOMATION",
+        "description": "Computer Science MSc and Automation & Robotics BEng, pursuing postgraduate Data Analytics studies at WSKZ since October 2026.",
+        "path": "./jobs/ogolne-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_ogolne_EN.html",
+        "atsPath": "./ats/ogolne-en.html"
       }
     }
   },
   {
     "key": "analiza-danych",
     "versions": {
-      "en": {
-        "title": "Data Analysis",
-        "description": "Python, SQL, R, Power BI and reporting automation",
-        "path": "./jobs/analiza-danych-en.html",
-        "downloadPath": "./downloads/Witold_Grzesiak_analiza-danych_EN.html"
-      },
       "pl": {
-        "title": "Analiza danych",
-        "description": "Python, SQL, R, Power BI i automatyzacja raportowania",
+        "title": "JUNIOR DATA ANALYST · SQL · PYTHON",
+        "description": "Magister informatyki, obecnie na studiach podyplomowych z analizy danych (WSKZ). Przygotowuję i waliduję dane, modeluję je w ",
         "path": "./jobs/analiza-danych.html",
-        "downloadPath": "./downloads/Witold_Grzesiak_analiza-danych_PL.html"
+        "downloadPath": "./downloads/Witold_Grzesiak_analiza-danych_PL.html",
+        "atsPath": "./ats/analiza-danych-pl.html"
+      },
+      "en": {
+        "title": "JUNIOR DATA ANALYST · SQL · PYTHON",
+        "description": "Computer Science MSc pursuing postgraduate Data Analytics studies at WSKZ. I prepare and validate data, build SQL/SQLite anal",
+        "path": "./jobs/analiza-danych-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_analiza-danych_EN.html",
+        "atsPath": "./ats/analiza-danych-en.html"
       }
     }
   },
   {
     "key": "automatyka",
     "versions": {
-      "en": {
-        "title": "Automation",
-        "description": "Industrial automation, diagnostics and technical systems",
-        "path": "./jobs/automatyka-en.html",
-        "downloadPath": "./downloads/Witold_Grzesiak_automatyka_EN.html"
-      },
       "pl": {
-        "title": "Automatyka",
-        "description": "Automatyka przemysłowa, diagnostyka i systemy techniczne",
+        "title": "AUTOMATYKA · DIAGNOSTYKA I SERWIS",
+        "description": "Inżynier automatyki i robotyki i magister informatyki z praktyką w instalacjach, diagnostyce, testach i serwisie stacji ładow",
         "path": "./jobs/automatyka.html",
-        "downloadPath": "./downloads/Witold_Grzesiak_automatyka_PL.html"
+        "downloadPath": "./downloads/Witold_Grzesiak_automatyka_PL.html",
+        "atsPath": "./ats/automatyka-pl.html"
+      },
+      "en": {
+        "title": "AUTOMATION · DIAGNOSTICS & SERVICE",
+        "description": "Automation & Robotics BEng and Computer Science MSc with experience installing, testing and troubleshooting EV charging syste",
+        "path": "./jobs/automatyka-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_automatyka_EN.html",
+        "atsPath": "./ats/automatyka-en.html"
       }
     }
   },
   {
     "key": "data-science",
     "versions": {
-      "en": {
-        "title": "Data Science",
-        "description": "Data modelling, statistics and experiments in Python and R",
-        "path": "./jobs/data-science-en.html",
-        "downloadPath": "./downloads/Witold_Grzesiak_data-science_EN.html"
-      },
       "pl": {
-        "title": "Data Science",
-        "description": "Modelowanie danych, statystyka i eksperymenty w Pythonie oraz R",
+        "title": "DATA SCIENCE · PYTHON · MODELOWANIE",
+        "description": "Magister informatyki rozwijający kompetencje analityczne na studiach podyplomowych WSKZ. W pracy magisterskiej przygotowywałe",
         "path": "./jobs/data-science.html",
-        "downloadPath": "./downloads/Witold_Grzesiak_data-science_PL.html"
+        "downloadPath": "./downloads/Witold_Grzesiak_data-science_PL.html",
+        "atsPath": "./ats/data-science-pl.html"
+      },
+      "en": {
+        "title": "DATA SCIENCE · PYTHON · MODELLING",
+        "description": "Computer Science MSc currently developing analytical skills through postgraduate studies at WSKZ. For my master's thesis I pr",
+        "path": "./jobs/data-science-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_data-science_EN.html",
+        "atsPath": "./ats/data-science-en.html"
       }
     }
   },
   {
     "key": "robotyka",
     "versions": {
-      "en": {
-        "title": "Robotics",
-        "description": "Robotics, systems integration and programming",
-        "path": "./jobs/robotyka-en.html",
-        "downloadPath": "./downloads/Witold_Grzesiak_robotyka_EN.html"
-      },
       "pl": {
-        "title": "Robotyka",
-        "description": "Robotyka, integracja systemów i programowanie",
+        "title": "ROBOTYKA · INTEGRACJA SYSTEMÓW",
+        "description": "Inżynier automatyki i robotyki oraz magister informatyki. Łączę doświadczenie w instalacji, diagnostyce, uruchamianiu i testa",
         "path": "./jobs/robotyka.html",
-        "downloadPath": "./downloads/Witold_Grzesiak_robotyka_PL.html"
+        "downloadPath": "./downloads/Witold_Grzesiak_robotyka_PL.html",
+        "atsPath": "./ats/robotyka-pl.html"
+      },
+      "en": {
+        "title": "ROBOTICS · SYSTEMS INTEGRATION",
+        "description": "Automation & Robotics BEng and Computer Science MSc. I combine equipment installation, commissioning, troubleshooting and fun",
+        "path": "./jobs/robotyka-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_robotyka_EN.html",
+        "atsPath": "./ats/robotyka-en.html"
       }
     }
   },
   {
     "key": "sztuczna-inteligencja",
     "versions": {
-      "en": {
-        "title": "Artificial Intelligence",
-        "description": "AI solutions, prompting, automation and integrations",
-        "path": "./jobs/sztuczna-inteligencja-en.html",
-        "downloadPath": "./downloads/Witold_Grzesiak_sztuczna-inteligencja_EN.html"
-      },
       "pl": {
-        "title": "Sztuczna inteligencja",
-        "description": "Rozwiązania AI, prompting, automatyzacja i integracje",
+        "title": "AI ENGINEER · AUTOMATYZACJA · LLM",
+        "description": "Magister informatyki projektujący aplikacje, API i automatyzację obiegu dokumentów w Pythonie. Rozwijam prototypy wykorzystuj",
         "path": "./jobs/sztuczna-inteligencja.html",
-        "downloadPath": "./downloads/Witold_Grzesiak_sztuczna-inteligencja_PL.html"
+        "downloadPath": "./downloads/Witold_Grzesiak_sztuczna-inteligencja_PL.html",
+        "atsPath": "./ats/sztuczna-inteligencja-pl.html"
+      },
+      "en": {
+        "title": "AI ENGINEER · AUTOMATION · LLM",
+        "description": "Computer Science MSc developing Python web applications, APIs and document workflow automation. I have prototyped local langu",
+        "path": "./jobs/sztuczna-inteligencja-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_sztuczna-inteligencja_EN.html",
+        "atsPath": "./ats/sztuczna-inteligencja-en.html"
       }
     }
   },
   {
     "key": "machine-learning",
     "versions": {
-      "en": {
-        "title": "Machine Learning",
-        "description": "Machine learning, deep learning, computer vision and TensorFlow",
-        "path": "./jobs/ml-ai-en.html",
-        "downloadPath": "./downloads/Witold_Grzesiak_machine-learning_EN.html"
-      },
       "pl": {
-        "title": "Uczenie maszynowe",
-        "description": "Deep learning, computer vision, TensorFlow i rozwiązania AI",
+        "title": "MACHINE LEARNING · COMPUTER VISION",
+        "description": "Magister informatyki z projektowym doświadczeniem w segmentacji obrazów biomedycznych. Przygotowywałem maski z anotacji, tren",
         "path": "./jobs/ml-ai.html",
-        "downloadPath": "./downloads/Witold_Grzesiak_machine-learning_PL.html"
+        "downloadPath": "./downloads/Witold_Grzesiak_machine-learning_PL.html",
+        "atsPath": "./ats/machine-learning-pl.html"
+      },
+      "en": {
+        "title": "MACHINE LEARNING · COMPUTER VISION",
+        "description": "Computer Science MSc with hands-on biomedical image segmentation experience. I prepared masks from annotations, trained and c",
+        "path": "./jobs/ml-ai-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_machine-learning_EN.html",
+        "atsPath": "./ats/machine-learning-en.html"
       }
     }
   },
   {
     "key": "bi-developer",
     "versions": {
-      "en": {
-        "title": "BI Developer",
-        "description": "Power BI, SQL, ETL, DAX, Python and data modelling",
-        "path": "./jobs/bi-developer-en.html",
-        "downloadPath": "./jobs/bi-developer-en.html"
-      },
       "pl": {
-        "title": "BI Developer",
-        "description": "Power BI, SQL, ETL, DAX, Python i modelowanie danych",
+        "title": "BI DEVELOPER · SQL · ETL",
+        "description": "Magister informatyki, student podyplomowej analizy danych WSKZ. W projektach buduję lokalne procesy ETL i modele wymiarowe z ",
         "path": "./jobs/bi-developer.html",
-        "downloadPath": "./jobs/bi-developer.html"
+        "downloadPath": "./downloads/Witold_Grzesiak_bi-developer_PL.html",
+        "atsPath": "./ats/bi-developer-pl.html"
+      },
+      "en": {
+        "title": "BI DEVELOPER · SQL · ETL",
+        "description": "Computer Science MSc pursuing postgraduate Data Analytics at WSKZ. My projects implement local ETL pipelines and dimensional ",
+        "path": "./jobs/bi-developer-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_bi-developer_EN.html",
+        "atsPath": "./ats/bi-developer-en.html"
       }
     }
   },
   {
     "key": "associate-data-operations-specialist",
     "versions": {
-      "en": {
-        "title": "Associate Data Operations Specialist",
-        "description": "SQL, Power BI, ETL, Linux, troubleshooting and Data Operations",
-        "path": "./jobs/associate-data-operations-specialist-en.html",
-        "downloadPath": "./jobs/associate-data-operations-specialist-en.html"
-      },
       "pl": {
-        "title": "Associate Data Operations Specialist",
-        "description": "SQL, Power BI, ETL, Linux, troubleshooting i Data Operations",
+        "title": "DATA OPERATIONS · IT SUPPORT · ETL",
+        "description": "Magister informatyki z doświadczeniem w analizie logów, diagnostyce komunikacji sieciowej, utrzymaniu urządzeń i wsparciu uży",
         "path": "./jobs/associate-data-operations-specialist.html",
-        "downloadPath": "./jobs/associate-data-operations-specialist.html"
+        "downloadPath": "./downloads/Witold_Grzesiak_associate-data-operations-specialist_PL.html",
+        "atsPath": "./ats/associate-data-operations-specialist-pl.html"
+      },
+      "en": {
+        "title": "DATA OPERATIONS · IT SUPPORT · ETL",
+        "description": "Computer Science MSc with experience in log analysis, network diagnostics, equipment support and user-facing incident managem",
+        "path": "./jobs/associate-data-operations-specialist-en.html",
+        "downloadPath": "./downloads/Witold_Grzesiak_associate-data-operations-specialist_EN.html",
+        "atsPath": "./ats/associate-data-operations-specialist-en.html"
       }
     }
   }
